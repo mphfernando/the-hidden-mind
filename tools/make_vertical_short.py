@@ -27,8 +27,10 @@ R = [tuple(map(float, r.split('-'))) for r in a.ranges]
 tmp = tempfile.mkdtemp(); pieces = []; t_out = 0.0; caps = []
 def run(cmd): subprocess.run(cmd, check=True)
 for i, (r0, r1) in enumerate(R):
-    rv = os.path.join(tmp, f'range{i}.mp4')
-    run(['node', os.path.join(ROOT, 'studio', 'render.mjs'), '--project', V, '--from', str(r0), '--to', str(r1), '--workers', a.workers, '--out', rv])
+    cache = os.path.join(V, 'build', 'cache'); os.makedirs(cache, exist_ok=True)
+    rv = os.path.join(cache, f'range_{r0}_{r1}.mp4')      # cached: delete build/cache in the -vertical project after editing shots
+    if not os.path.exists(rv):
+        run(['node', os.path.join(ROOT, 'studio', 'render.mjs'), '--project', V, '--from', str(r0), '--to', str(r1), '--workers', a.workers, '--out', rv])
     ra = os.path.join(tmp, f'range{i}.m4a'); d = r1 - r0
     run(['ffmpeg', '-y', '-v', 'error', '-ss', f'{r0:.3f}', '-i', a.final, '-t', f'{d:.3f}', '-vn', '-af', f'afade=t=in:d=0.05,afade=t=out:st={d-0.1:.3f}:d=0.1', '-c:a', 'aac', '-b:a', '192k', ra])
     # per-shot crops inside this range
@@ -57,7 +59,8 @@ ass = ['[Script Info]', 'ScriptType: v4.00+', 'PlayResX: 1080', 'PlayResY: 1920'
 for gi in range(0, len(caps), 3):
     grp = caps[gi:gi + 3]
     for j, (s0, s1, w) in enumerate(grp):
-        e = grp[j + 1][0] if j + 1 < len(grp) else s1 + 0.25
+        nxt = caps[gi + 3][0] if gi + 3 < len(caps) else 1e9
+        e = grp[j + 1][0] if j + 1 < len(grp) else min(s1 + 0.25, nxt)   # never overlap the next group
         txt = ' '.join(('{\\c&H4AD8FF&}' + re.sub(r'[{}]', '', x[2]).upper() + '{\\c&HFFFFFF&}') if k == j else re.sub(r'[{}]', '', x[2]).upper() for k, x in enumerate(grp))
         ass.append(f'Dialogue: 0,{ts(s0)},{ts(e)},Cap,,0,0,0,,{txt}')
 assf = os.path.join(tmp, 'caps.ass'); open(assf, 'w').write('\n'.join(ass) + '\n')
