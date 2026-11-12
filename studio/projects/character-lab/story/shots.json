@@ -1,0 +1,115 @@
+{
+ "title": "Character Lab",
+ "duration": 18,
+ "shots": [
+  {
+   "id": "milo",
+   "start": 0,
+   "end": 2,
+   "line": "",
+   "scene": "milo",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "vex",
+   "start": 2,
+   "end": 4,
+   "line": "",
+   "scene": "vex",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "sage",
+   "start": 4,
+   "end": 6,
+   "line": "",
+   "scene": "sage",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "ada",
+   "start": 6,
+   "end": 8,
+   "line": "",
+   "scene": "ada",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "juno",
+   "start": 8,
+   "end": 10,
+   "line": "",
+   "scene": "juno",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "ray",
+   "start": 10,
+   "end": 12,
+   "line": "",
+   "scene": "ray",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "pip",
+   "start": 12,
+   "end": 14,
+   "line": "",
+   "scene": "pip",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "shadow",
+   "start": 14,
+   "end": 16,
+   "line": "",
+   "scene": "shadow",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "lineup",
+   "start": 16,
+   "end": 18,
+   "line": "",
+   "scene": "lineup",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  }
+ ],
+ "music": []
+}

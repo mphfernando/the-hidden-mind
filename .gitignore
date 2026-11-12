@@ -1,0 +1,5 @@
+node_modules/
+studio/projects/*/build/
+studio/projects/*/out/
+*.wav
+__pycache__/
