@@ -936,7 +936,10 @@
      "gain": -8
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
   },
   {
    "id": "t14",
@@ -960,6 +963,9 @@
    "amb": {
     "name": "city",
     "gain": -20
+   },
+   "params": {
+    "vfocus": 0.46
    }
   },
   {
@@ -980,7 +986,10 @@
      "gain": -10
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
   },
   {
    "id": "t16",
@@ -1009,6 +1018,9 @@
    "amb": {
     "name": "hum",
     "gain": -28
+   },
+   "params": {
+    "vfocus": 0.42
    }
   },
   {
@@ -1034,6 +1046,9 @@
    "amb": {
     "name": "roomtone",
     "gain": -18
+   },
+   "params": {
+    "vfocus": 0.42
    }
   },
   {
@@ -1068,6 +1083,9 @@
    "amb": {
     "name": "roomtone",
     "gain": -20
+   },
+   "params": {
+    "vfocus": 0.5
    }
   },
   {
@@ -1095,7 +1113,10 @@
     }
    ],
    "notes": "",
-   "captions": false
+   "captions": false,
+   "params": {
+    "vfocus": 0.5
+   }
   },
   {
    "id": "t20",
@@ -1115,7 +1136,10 @@
      "gain": -12
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfocus": 0.55
+   }
   },
   {
    "id": "t21",
@@ -1141,7 +1165,10 @@
      "pitch": 1.2
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
   },
   {
    "id": "t22",
@@ -1776,7 +1803,10 @@
     }
    ],
    "notes": "",
-   "captions": false
+   "captions": false,
+   "params": {
+    "vfocus": 0.5
+   }
   }
  ],
  "music": [
