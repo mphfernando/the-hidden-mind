@@ -28,8 +28,32 @@ Real researchers named in a script are drawn as GENERIC figures (no likeness) wi
    (ScriptForge style: hook <15 s, 3–5 escalating beats, twist, payoff, CTA "subscribe for more on the hidden side of your
    mind"; 450–600 words; real, cautiously phrased science; sources listed). Save to `scripts/` and `episodes/epNN-*/plan.md`.
 2. The owner records it in ElevenLabs and sends the MP3 with "make episode N".
-3. Claude does everything else (steps below): build, render, thumbnail, 3–4 full-screen 9:16 Shorts, metadata, private
+3. Claude does everything else (steps below): build, render, thumbnail, 5–8 full-screen 9:16 Shorts, metadata, private
    upload, push to this repo. Growth notes: searchable titles, thumbnail ≤ 4 words, Shorts full-screen 9:16 (not letterboxed).
+
+## Publishing schedule (owner's standing instruction — Sri Lanka time, UTC+5:30)
+Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make every Sri Lanka time 1 hour earlier).
+- **Episodes: weekly, Friday 12:30 AM Sri Lanka** (= US Thursday 2 PM ET, 19:00 UTC Thursday).
+- **Shorts: DAILY at 6:30 AM Sri Lanka** (= US 8 PM ET the previous evening, 01:00 UTC). The first Short of an episode
+  goes out the same Friday 6:30 AM; the rest follow one per day. Cut 5–8 Shorts per episode (full-screen 9:16,
+  `tools/make_vertical_short.py`) so there is always a Short for every day until the next episode.
+- The owner asks Claude to create each batch when needed ("make the shorts"); Claude also proposes Short ideas from
+  existing episodes so the daily queue never runs dry.
+- Scheduling: set `status.publishAt` (with privacy private) on upload when the API allows; otherwise give the owner the
+  exact Sri Lanka date/time for each video to set in YouTube Studio (Visibility → Schedule).
+- API note: the OAuth Playground's shared quota often runs out (403 quotaExceeded) — stop after one failed retry and hand
+  the remaining steps to the owner. Long-term fix: owner's own Google Cloud project + YouTube API audit (Option A).
+
+### Upload log
+| Video | ID | Planned (Sri Lanka) |
+|---|---|---|
+| ep01 The Truth About Overthinking (retitled "Why You Can't Stop Overthinking (Psychology Explained)") | ez-lXPY79pU | published 12 Nov 2026 |
+| ep01 Short "Why you can't stop overthinking" | CmJgWzDrGxo | published 12 Nov 2026 |
+| ep02 Why Your Brain Replays Embarrassing Memories at Night | fN20EY-EMLk | Fri 13 Nov 2026, 12:30 AM |
+| ep02 Short 1 Why your brain replays cringe moments | unze8yiX1uU | Fri 13 Nov 2026, 6:30 AM |
+| ep02 Short 2 Nobody noticed | WtietaE1DD4 | Sat 14 Nov 2026, 6:30 AM |
+| ep02 Short 3 Try this at 2 AM | wwhTZaRkRz8 | Sun 15 Nov 2026, 6:30 AM |
+| next Shorts needed from | — | Mon 16 Nov 2026, 6:30 AM (daily) |
 
 ## Trigger: "make / upload the next video" (the owner attaches the voiceover MP3 file(s))
 Do ALL of it, in order, without stopping unless blocked:
