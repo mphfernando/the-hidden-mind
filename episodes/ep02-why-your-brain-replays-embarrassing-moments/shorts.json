@@ -19,7 +19,9 @@
    "the hidden mind"
   ],
   "categoryId": "27",
-  "madeForKids": false
+  "madeForKids": false,
+  "youtube_id": "unze8yiX1uU",
+  "status": "uploaded PRIVATE via API"
  },
  {
   "file": "short2_nobody_noticed.mp4",
@@ -40,7 +42,9 @@
    "the hidden mind"
   ],
   "categoryId": "27",
-  "madeForKids": false
+  "madeForKids": false,
+  "youtube_id": "WtietaE1DD4",
+  "status": "uploaded PRIVATE via API"
  },
  {
   "file": "short3_what_to_do_at_2am.mp4",
@@ -61,6 +65,8 @@
    "the hidden mind"
   ],
   "categoryId": "27",
-  "madeForKids": false
+  "madeForKids": false,
+  "youtube_id": "wwhTZaRkRz8",
+  "status": "uploaded PRIVATE via API"
  }
 ]
