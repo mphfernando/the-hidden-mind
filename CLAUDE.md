@@ -23,6 +23,14 @@ MILO (YOU) violet hoodie #8a5ad6 + neck headphones = "you" · VEX inner critic (
 · THE SHADOW = fear (tall shape, glowing eyes; grows when Milo overthinks, shrinks when fear is named).
 Real researchers named in a script are drawn as GENERIC figures (no likeness) with a name callout.
 
+## Episode workflow (owner's standing instructions)
+1. Claude writes the next episode: topic chosen for search demand + curiosity, a scene plan and the exact voiceover text
+   (ScriptForge style: hook <15 s, 3–5 escalating beats, twist, payoff, CTA "subscribe for more on the hidden side of your
+   mind"; 450–600 words; real, cautiously phrased science; sources listed). Save to `scripts/` and `episodes/epNN-*/plan.md`.
+2. The owner records it in ElevenLabs and sends the MP3 with "make episode N".
+3. Claude does everything else (steps below): build, render, thumbnail, 3–4 full-screen 9:16 Shorts, metadata, private
+   upload, push to this repo. Growth notes: searchable titles, thumbnail ≤ 4 words, Shorts full-screen 9:16 (not letterboxed).
+
 ## Trigger: "make / upload the next video" (the owner attaches the voiceover MP3 file(s))
 Do ALL of it, in order, without stopping unless blocked:
 1. **Setup**: `bash tools/setup.sh` (from repo root). Chromium: the pre-installed one at /opt/pw-browsers is used by Playwright 1.63.
