@@ -44,6 +44,9 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 - API note: the OAuth Playground's shared quota often runs out (403 quotaExceeded) — stop after one failed retry and hand
   the remaining steps to the owner. Long-term fix: owner's own Google Cloud project + YouTube API audit (Option A).
 
+- **Cross-post** every Short to TikTok + Facebook/Instagram Reels (owner posts manually, same 6:30 AM slot) and the full
+  episode to the Facebook Page; write platform captions in `episodes/epNN-*/social_captions.txt` (no #shorts, no links on TikTok).
+
 ### Upload log
 | Video | ID | Planned (Sri Lanka) |
 |---|---|---|
