@@ -913,7 +913,8 @@
    "notes": "",
    "captions": false,
    "params": {
-    "vfocus": 0.52
+    "vfocus": 0.52,
+    "vfit": true
    }
   },
   {
@@ -937,7 +938,8 @@
    "notes": "",
    "captions": false,
    "params": {
-    "vfocus": 0.52
+    "vfocus": 0.52,
+    "vfit": true
    }
   },
   {
@@ -961,7 +963,8 @@
    "notes": "",
    "captions": false,
    "params": {
-    "vfocus": 0.52
+    "vfocus": 0.52,
+    "vfit": true
    }
   },
   {
@@ -1437,7 +1440,10 @@
     }
    ],
    "notes": "",
-   "captions": false
+   "captions": false,
+   "params": {
+    "vfit": true
+   }
   }
  ],
  "music": [

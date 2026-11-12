@@ -5,7 +5,7 @@
 
 How: a sibling project "<slug>-vertical" (symlinked scenes/timeline/input, story copy with bars "none" + captions off,
 config 1440p) renders each range; every shot is cropped to 1080x1440 around shots[].params.vfocus (0..1 of the width,
-default 0.5); audio is cut from the finished episode so music/SFX match; big word captions (ASS, Inter) are burned in;
+default 0.5; params.vfocusKeys=[[t,f],..] reframes mid-shot; params.vfit=true fits the whole wide frame); audio is cut from the finished episode so music/SFX match; big word captions (ASS, Inter) are burned in;
 the top band gets the hook title (tools/overlay_v.html via Playwright). Result: 1080x1920, video fills y 240..1680.
 """
 import argparse, json, os, re, shutil, subprocess, sys, tempfile
@@ -37,11 +37,20 @@ for i, (r0, r1) in enumerate(R):
     segs = []
     for s in story['shots']:
         a0, a1 = max(r0, s['start']), min(r1, s['end'])
-        if a1 - a0 > 0.02: segs.append((a0 - r0, a1 - r0, float(s.get('params', {}).get('vfocus', 0.5))))
+        if a1 - a0 <= 0.02: continue
+        prm = s.get('params', {}); fit = bool(prm.get('vfit'))
+        # vfocusKeys: [[t_from_shot_start, focus], ...] -> hard reframe cuts inside the shot
+        keys = prm.get('vfocusKeys') or [[0, prm.get('vfocus', 0.5)]]
+        for ki, (kt, kf) in enumerate(keys):
+            k0 = max(a0, s['start'] + kt); k1 = min(a1, s['start'] + keys[ki + 1][0]) if ki + 1 < len(keys) else a1
+            if k1 - k0 > 0.02: segs.append((k0 - r0, k1 - r0, float(kf), fit))
     cv = os.path.join(tmp, f'crop{i}.mp4'); parts = []
-    for k, (s0, s1, f) in enumerate(segs):
+    for k, (s0, s1, f, fit) in enumerate(segs):
         x = int(max(0, min(2560 - 1080, f * 2560 - 540))); pp = os.path.join(tmp, f'c{i}_{k}.mp4')
-        run(['ffmpeg', '-y', '-v', 'error', '-ss', f'{s0:.3f}', '-i', rv, '-t', f'{s1 - s0:.3f}', '-vf', f'crop=1080:1440:{x}:0', '-an', '-c:v', 'libx264', '-crf', '16', '-preset', 'fast', '-r', '24', pp]); parts.append(pp)
+        # vfit: show the whole wide frame (scaled to 1080 wide) over a blurred fill instead of cropping
+        vf = (f'crop=1080:1440:{x}:0' if not fit else
+              "split[a][b];[a]crop=1080:1440:740:0,boxblur=24:2,eq=brightness=-0.3[bg];[b]scale=1080:-2[fg];[bg][fg]overlay=0:(H-h)/2")
+        run(['ffmpeg', '-y', '-v', 'error', '-ss', f'{s0:.3f}', '-i', rv, '-t', f'{s1 - s0:.3f}', '-filter_complex' if fit else '-vf', vf, '-an', '-c:v', 'libx264', '-crf', '16', '-preset', 'fast', '-r', '24', pp]); parts.append(pp)
     lst = os.path.join(tmp, f'l{i}.txt'); open(lst, 'w').write(''.join(f"file '{p}'\n" for p in parts))
     run(['ffmpeg', '-y', '-v', 'error', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', cv])
     pv = os.path.join(tmp, f'piece{i}.mp4'); run(['ffmpeg', '-y', '-v', 'error', '-i', cv, '-i', ra, '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'copy', '-shortest', pv]); pieces.append(pv)
