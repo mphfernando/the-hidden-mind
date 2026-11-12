@@ -3,3 +3,4 @@ studio/projects/*/build/
 studio/projects/*/out/
 *.wav
 __pycache__/
+studio/node_modules

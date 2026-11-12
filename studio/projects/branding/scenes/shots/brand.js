@@ -79,3 +79,18 @@ registerShot('thumb', { draw(g, t) {
   // small thought bubble "what if" trail from Milo
   thoughtCloud(g, E.W * 0.52, E.H * 0.8, 240, 120, { label: 'WHAT IF?', labelColor: '#1a2440', tail: [fx + r * 0.7, fy - r * 0.3] });
 } });
+
+// THUMBNAIL ep02 — wide-awake Milo, the "YOU TOO!" memory on replay, "IT'S 2 AM".
+import { memoryFrame } from '../sets/memory.js';
+registerShot('thumb_ep02', { draw(g, t) {
+  backdrop(g, ['#050914', '#0c1630', '#132449']); FX.stars(g, 0, { count: 90, area: [0, 0, E.W, E.H * 0.7] });
+  glow(g, E.W * 0.62, E.H * 0.42, 600, '#ffb070', 0.18);
+  // the replay screen, big and tilted, with a projector beam from Milo's head
+  const fx = E.W * 0.2, fy = E.H * 0.7, r = 245;
+  g.save(); g.globalCompositeOperation = 'lighter'; g.fillStyle = 'rgba(255,200,140,.10)'; g.beginPath(); g.moveTo(fx + 60, fy - r * 0.7); g.lineTo(E.W * 0.4, E.H * 0.06); g.lineTo(E.W * 0.86, E.H * 0.06); g.lineTo(E.W * 0.86, E.H * 0.58); g.lineTo(E.W * 0.4, E.H * 0.58); g.closePath(); g.fill(); g.restore();
+  memoryFrame(g, E.W * 0.63, E.H * 0.32, 700, 400, 0, { rot: 0.04 });
+  bigFace(g, fx, fy, r, { outfit: YOU, expr: 'shocked', look: [0.8, -0.8], rimColor: '#7fe0ff', rimSide: -1 }); faceAcc(g, fx, fy, r, MACC, MCOL);
+  for (let i = 0; i < 3; i++) { const a = -2.0 + i * 0.35; seg(g, [[fx + Math.cos(a) * r * 1.2, fy + Math.sin(a) * r * 1.2], [fx + Math.cos(a) * r * 1.45, fy + Math.sin(a) * r * 1.45]], 12, '#ffffff'); }
+  // hook text, top area, bottom-right kept clear
+  text(g, "IT'S 2 AM", E.W * 0.66, E.H * 0.74, { size: 190, color: '#ffd84a', stroke: 26, strokeColor: '#050914', spacing: 3, glow: 40, glowColor: 'rgba(255,200,60,.55)' });
+} });

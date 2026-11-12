@@ -1,0 +1,1481 @@
+{
+ "title": "Why Your Brain Replays Embarrassing Moments at 2 AM",
+ "duration": 188.41,
+ "shots": [
+  {
+   "id": "u01",
+   "start": 0,
+   "end": 1.48,
+   "line": "2 AM.",
+   "scene": "Night bedroom wide, glowing bedside clock 2:00 AM",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   },
+   "params": {
+    "vfocus": 0.42
+   }
+  },
+  {
+   "id": "u02",
+   "start": 1.48,
+   "end": 4.09,
+   "line": "You're finally drifting off to sleep.",
+   "scene": "Milo lying in bed, eyes closing, small z's",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   },
+   "params": {
+    "vfocus": 0.45
+   }
+  },
+  {
+   "id": "u03",
+   "start": 4.09,
+   "end": 6.17,
+   "line": "And then, out of nowhere,",
+   "scene": "bigFace Milo: eyes snap open",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "u04",
+   "start": 6.17,
+   "end": 7.9,
+   "line": "your brain plays it.",
+   "scene": "A projector beam from Milo's head throws REPLAY onto the ceiling",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "powerup",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   },
+   "params": {
+    "vfocus": 0.45
+   }
+  },
+  {
+   "id": "u05",
+   "start": 7.9,
+   "end": 10.11,
+   "line": "The waiter said, \"Enjoy your meal.\"",
+   "scene": "FLASHBACK cafe: waiter sets a plate down: ENJOY YOUR MEAL",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -20,
+     "pitch": 1.4
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "u06",
+   "start": 10.11,
+   "end": 11.2,
+   "line": "And you said...",
+   "scene": "Milo at the table, smiling, about to answer",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "u07",
+   "start": 11.2,
+   "end": 12.27,
+   "line": "\"You too.\"",
+   "scene": "bigFace Milo: YOU TOO! bubble",
+   "set": "cafe",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   },
+   "params": {
+    "vfocus": 0.58
+   }
+  },
+  {
+   "id": "u08",
+   "start": 12.27,
+   "end": 14.35,
+   "line": "That was four years ago.",
+   "scene": "FREEZE: cafe frozen, cool tint, 4 YEARS AGO badge, cringe meter",
+   "set": "cafe",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "freeze",
+     "gain": -6
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u09",
+   "start": 14.35,
+   "end": 15.98,
+   "line": "The waiter has forgotten.",
+   "scene": "Waiter by the counter, empty thought bubble",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   },
+   "params": {
+    "vfocus": 0.42
+   }
+  },
+  {
+   "id": "u10",
+   "start": 15.98,
+   "end": 18.17,
+   "line": "Everyone at the table has forgotten.",
+   "scene": "Friends at the table thinking of other things",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   },
+   "params": {
+    "vfocus": 0.55
+   }
+  },
+  {
+   "id": "u11",
+   "start": 18.17,
+   "end": 21.07,
+   "line": "So why does your brain keep hitting replay?",
+   "scene": "bigFace Milo wide awake, replay icon spinning",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   },
+   "params": {
+    "vfocus": 0.55
+   }
+  },
+  {
+   "id": "u12",
+   "start": 21.07,
+   "end": 26.37,
+   "line": "And why does it always pick the most embarrassing moments, at the worst possible time?",
+   "scene": "Milo hides under the blanket; cringe bubbles queue above; clock 2:00",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 2.2,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   },
+   "params": {
+    "vfocus": 0.4
+   }
+  },
+  {
+   "id": "u13",
+   "start": 26.37,
+   "end": 29.38,
+   "line": "The answer starts with how memories are made.",
+   "scene": "Blueprint: HOW MEMORIES ARE MADE, film frames into a brain",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "zoom",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u14",
+   "start": 29.38,
+   "end": 35.25,
+   "line": "When something stirs up strong emotion, like shame, fear, or a hot rush of embarrassment,",
+   "scene": "Emotion meter: SHAME, FEAR, EMBARRASSMENT pop and the needle rises",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 2.3,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.2,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u15",
+   "start": 35.25,
+   "end": 38.84,
+   "line": "a small part of your brain called the amygdala gets involved.",
+   "scene": "Brain blueprint, the amygdala glows: AMYGDALA",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u16",
+   "start": 38.84,
+   "end": 41.52,
+   "line": "It helps tag that moment as important.",
+   "scene": "Memory frame gets stamped IMPORTANT",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "impact",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u17",
+   "start": 41.52,
+   "end": 47.07,
+   "line": "And emotional moments like these tend to be stored more strongly than calm, everyday ones.",
+   "scene": "Two memories: CALM fades, EMOTIONAL stays bold",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u18",
+   "start": 47.07,
+   "end": 50.93,
+   "line": "In other words... your brain didn't keep that memory by accident.",
+   "scene": "A vast dark archive; one glowing tape in a display case",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hum",
+     "gain": -20
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "u19",
+   "start": 50.93,
+   "end": 52.93,
+   "line": "It kept it on purpose.",
+   "scene": "The Shadow holds the glowing tape: ON PURPOSE",
+   "set": "void",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "u20",
+   "start": 52.93,
+   "end": 55.91,
+   "line": "But there's a second reason the cringe hits so hard.",
+   "scene": "CRINGE gauge, needle slams into the red",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "impact",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u21",
+   "start": 55.91,
+   "end": 59.05,
+   "line": "Psychologists call it the negativity bias.",
+   "scene": "Title: NEGATIVITY BIAS",
+   "set": "title",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "u22",
+   "start": 59.05,
+   "end": 63.68,
+   "line": "In a well-known review, researchers led by Roy Baumeister concluded that,",
+   "scene": "Study: generic researcher at the board, ROY BAUMEISTER callout",
+   "set": "study",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -18
+   }
+  },
+  {
+   "id": "u23",
+   "start": 63.68,
+   "end": 65.67,
+   "line": "across many areas of life,",
+   "scene": "Icons for areas of life light up: WORK, LOVE, FRIENDS, HEALTH",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u24",
+   "start": 65.67,
+   "end": 68.39,
+   "line": "bad tends to be stronger than good.",
+   "scene": "BAD > GOOD stamp",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "impact",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u25",
+   "start": 68.39,
+   "end": 70.73,
+   "line": "You can get ten compliments in a day.",
+   "scene": "Balance scale: 10 compliment bubbles pile up, counter 10",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "counter",
+     "gain": -16,
+     "dur": 1.2
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "u26",
+   "start": 70.73,
+   "end": 74.27,
+   "line": "And the one awkward moment is the one you take to bed.",
+   "scene": "One coral AWKWARD bubble drops, the scale slams the other way",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "u27",
+   "start": 74.27,
+   "end": 75.75,
+   "line": "So why at night?",
+   "scene": "WHY AT NIGHT? over the night city",
+   "set": "title",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "u28",
+   "start": 75.75,
+   "end": 78.08,
+   "line": "During the day, your mind is busy.",
+   "scene": "Milo busy at a desk, phone buzzing",
+   "set": "study",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "phonebuzz",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -18
+   }
+  },
+  {
+   "id": "u29",
+   "start": 78.08,
+   "end": 81.5,
+   "line": "Messages. Noise. Work. People.",
+   "scene": "Four panels pop on each word: MESSAGES NOISE WORK PEOPLE",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 1.5,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 2.2,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "u30",
+   "start": 81.5,
+   "end": 83.42,
+   "line": "But when you lie down in the dark,",
+   "scene": "Bedroom: lamp clicks off, Milo lies down",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "tick",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "u31",
+   "start": 83.42,
+   "end": 85.29,
+   "line": "all of that goes quiet.",
+   "scene": "Silence; the Shadow sits at the end of the bed",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "riser",
+     "gain": -20
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "u32",
+   "start": 85.29,
+   "end": 87.54,
+   "line": "And a quiet mind wanders.",
+   "scene": "A thought cloud drifts up from Milo and floats around the room",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "u33",
+   "start": 87.54,
+   "end": 93.32,
+   "line": "It drifts back to unfinished business... and embarrassment feels like unfinished business.",
+   "scene": "The cloud shows the cafe memory; UNFINISHED BUSINESS",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.0,
+     "name": "stinger",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "u34",
+   "start": 93.32,
+   "end": 95.37,
+   "line": "Being tired can make it worse.",
+   "scene": "Low battery icon over sleepy Milo",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "u35",
+   "start": 95.37,
+   "end": 102.2,
+   "line": "Sleep research suggests that when we're short on sleep, the brain's emotional reactions can run hotter than usual.",
+   "scene": "Brain with a thermometer: EMOTIONAL REACTIONS run hotter",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.6,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u36",
+   "start": 102.2,
+   "end": 104.95,
+   "line": "Now here's the part almost nobody knows.",
+   "scene": "Dr. Ada raises a finger: here's the part nobody knows",
+   "set": "study",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -18
+   },
+   "params": {
+    "vfocus": 0.4
+   }
+  },
+  {
+   "id": "u37",
+   "start": 104.95,
+   "end": 111.33,
+   "line": "In a famous study at Cornell, students were asked to wear an embarrassing T-shirt into a room full of people.",
+   "scene": "Juno walks into a room of people wearing an embarrassing T-shirt; CORNELL",
+   "set": "stage",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 1.3,
+     "name": "footstep",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   },
+   "params": {
+    "vfocus": 0.45
+   }
+  },
+  {
+   "id": "u38",
+   "start": 111.33,
+   "end": 114.92,
+   "line": "Afterwards, they guessed that about half the room had noticed.",
+   "scene": "Bar: GUESSED, about HALF",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "counter",
+     "gain": -16,
+     "dur": 1.4
+    }
+   ],
+   "notes": "",
+   "captions": false,
+   "params": {
+    "vfocus": 0.52
+   }
+  },
+  {
+   "id": "u39",
+   "start": 114.92,
+   "end": 116.07,
+   "line": "The real number?",
+   "scene": "Same chart, a question mark over ACTUAL",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "captions": false,
+   "params": {
+    "vfocus": 0.52
+   }
+  },
+  {
+   "id": "u40",
+   "start": 116.07,
+   "end": 117.63,
+   "line": "Roughly a quarter.",
+   "scene": "ACTUAL bar: about A QUARTER",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "captions": false,
+   "params": {
+    "vfocus": 0.52
+   }
+  },
+  {
+   "id": "u41",
+   "start": 117.63,
+   "end": 120.53,
+   "line": "Psychologists call this the spotlight effect.",
+   "scene": "Milo alone on a stage under a giant spotlight: SPOTLIGHT EFFECT",
+   "set": "stage",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u42",
+   "start": 120.53,
+   "end": 122.99,
+   "line": "We feel like everyone is watching us...",
+   "scene": "Milo looks around; dozens of eyes in the dark",
+   "set": "stage",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "heartbeat",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u43",
+   "start": 122.99,
+   "end": 125.8,
+   "line": "when most people are busy thinking about themselves.",
+   "scene": "Lights up: the audience all looking at their own phones and thoughts",
+   "set": "stage",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "u44",
+   "start": 125.8,
+   "end": 128.44,
+   "line": "Which means the moment you can't forget...",
+   "scene": "Cafe wide: everyone busy with their own lives",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   },
+   "params": {
+    "vfocus": 0.45
+   }
+  },
+  {
+   "id": "u45",
+   "start": 128.44,
+   "end": 130.57,
+   "line": "most people never even noticed.",
+   "scene": "Eyes-closed icons over each person: NOBODY NOTICED",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "u46",
+   "start": 130.57,
+   "end": 131.94,
+   "line": "And the few who did?",
+   "scene": "The waiter, mid-shrug",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "u47",
+   "start": 131.94,
+   "end": 134.04,
+   "line": "They've almost certainly moved on.",
+   "scene": "The waiter walks off whistling to the next table",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 0.8,
+     "name": "footstep",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "u48",
+   "start": 134.04,
+   "end": 137.53,
+   "line": "The only person still replaying it... is you.",
+   "scene": "Milo alone, the replay projected on the ceiling; the camera pushes in on 'you'",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 2.4,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   },
+   "params": {
+    "vfocus": 0.45
+   }
+  },
+  {
+   "id": "u49",
+   "start": 137.53,
+   "end": 140.56,
+   "line": "So what can you actually do at 2 AM?",
+   "scene": "Sage appears in the chair by the bed; Milo sits up",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   },
+   "params": {
+    "vfocus": 0.54
+   }
+  },
+  {
+   "id": "u50",
+   "start": 140.56,
+   "end": 141.55,
+   "line": "Try this.",
+   "scene": "Sage raises a finger",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   },
+   "params": {
+    "vfocus": 0.54
+   }
+  },
+  {
+   "id": "u51",
+   "start": 141.55,
+   "end": 146.74,
+   "line": "Instead of reliving the moment from inside your own eyes, picture it from the outside.",
+   "scene": "Split screen: INSIDE (huge waiter face) vs OUTSIDE (tiny cafe seen from above)",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.7,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "u52",
+   "start": 146.74,
+   "end": 149.47,
+   "line": "Like a fly on the wall, watching a stranger.",
+   "scene": "Top-down view of the cafe from the ceiling, a fly icon, FLY ON THE WALL",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "buzz",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "u53",
+   "start": 149.47,
+   "end": 155.48,
+   "line": "Research on this kind of self-distancing suggests it can take some of the sting out of painful memories.",
+   "scene": "The replay screen shrinks into the distance; SELF-DISTANCING; the Shadow shrinks",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   },
+   "params": {
+    "vfocus": 0.53
+   }
+  },
+  {
+   "id": "u54",
+   "start": 155.48,
+   "end": 158.41,
+   "line": "And try talking to yourself by name.",
+   "scene": "A MILO name tag pops; Milo whispers to himself",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   },
+   "params": {
+    "vfocus": 0.48
+   }
+  },
+  {
+   "id": "u55",
+   "start": 158.41,
+   "end": 161.94,
+   "line": "\"Milo, it was one sentence, four years ago.\"",
+   "scene": "bigFace Milo says it calmly, small smile",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   },
+   "params": {
+    "vfocus": 0.55
+   }
+  },
+  {
+   "id": "u56",
+   "start": 161.94,
+   "end": 168.68,
+   "line": "It sounds strange, but studies suggest that stepping back like this can make your emotions easier to handle.",
+   "scene": "Sage nods; emotion meter drops: EASIER TO HANDLE",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.8,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   },
+   "params": {
+    "vfocus": 0.58
+   }
+  },
+  {
+   "id": "u57",
+   "start": 168.68,
+   "end": 172.57,
+   "line": "Your brain replays these moments because it's trying to protect you.",
+   "scene": "Brain with a guard's shield: TRYING TO PROTECT YOU",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.52
+   }
+  },
+  {
+   "id": "u58",
+   "start": 172.57,
+   "end": 175.83,
+   "line": "It just doesn't know the danger is long gone.",
+   "scene": "Dawn light floods the bedroom; the Shadow by the door fades away",
+   "set": "dawn",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "u59",
+   "start": 175.83,
+   "end": 183.57,
+   "line": "So, what's the cringe memory your brain loves to replay? Tell me in the comments. I promise, you're not the only one.",
+   "scene": "Comment prompt: the cringe memory question + comment cards",
+   "set": "end",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 4.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 5.5,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "u60",
+   "start": 183.57,
+   "end": 188.41,
+   "line": "And subscribe for more on the hidden side of your mind.",
+   "scene": "End screen with the cast",
+   "set": "end",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 7.9,
+   "mood": "mystery",
+   "intensity": 0.3
+  },
+  {
+   "start": 7.9,
+   "end": 18.17,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 18.17,
+   "end": 74.27,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 74.27,
+   "end": 102.2,
+   "mood": "dark",
+   "intensity": 0.4
+  },
+  {
+   "start": 102.2,
+   "end": 137.53,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 137.53,
+   "end": 188.41,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ]
+}
