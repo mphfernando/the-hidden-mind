@@ -4,3 +4,4 @@ studio/projects/*/out/
 *.wav
 __pycache__/
 studio/node_modules
+studio/projects/*-vertical/
