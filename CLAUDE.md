@@ -56,8 +56,17 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep02 Short 1 Why your brain replays cringe moments | unze8yiX1uU | Fri 13 Nov 2026, 6:30 AM |
 | ep02 Short 2 Nobody noticed | WtietaE1DD4 | Sat 14 Nov 2026, 6:30 AM |
 | ep02 Short 3 Try this at 2 AM | wwhTZaRkRz8 | Sun 15 Nov 2026, 6:30 AM |
-| ep01 Short 2 "9 in 10 worries never came true" | ZiM_ea1T5xg | Fri 13 Nov 2026, 6:30 AM |
+| ep01 Short 2 retitled "Your worries are lying to you" | ZiM_ea1T5xg | went public 13 Nov 2026, 3:16 AM |
 | next Shorts needed from | — | Sat 14 Nov 2026, 6:30 AM (daily; ep02 Shorts went public early on 12 Nov) |
+
+### Performance lessons (update as data comes in)
+- 13 Nov 2026 (day 1–2): ep02 Short 1 "you too to a waiter" = 1,417 views / 32 likes in 18 h (best). ep01 Short = 585.
+  ep02 Shorts 2 & 3 posted 1–2 min after Short 1 → 5 and 2 views: NEVER post two Shorts close together (1 per day).
+  "9 in 10 worries" (opened on "Here's the trap", went live 3:16 AM SL) = 0 views in 10 h → retitled "Your worries are lying to you".
+- What works: a relatable, specific mini-story in the first 2 seconds (an awkward moment everyone has had). Open Shorts on
+  the most surprising/relatable line, not a scene's first line; aim 20–35 s; end on a line that loops.
+- Long episodes get few views on a new channel; Shorts drive discovery. Check numbers with the Data API after 08:00 UTC
+  (quota reset = midnight Pacific = 1:30 PM Sri Lanka).
 
 ## Trigger: "make / upload the next video" (the owner attaches the voiceover MP3 file(s))
 Do ALL of it, in order, without stopping unless blocked:
