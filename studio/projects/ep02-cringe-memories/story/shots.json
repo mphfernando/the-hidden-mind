@@ -423,6 +423,9 @@
    "amb": {
     "name": "hum",
     "gain": -28
+   },
+   "params": {
+    "vfocus": 0.5
    }
   },
   {
@@ -447,6 +450,9 @@
    "amb": {
     "name": "hum",
     "gain": -28
+   },
+   "params": {
+    "vfocus": 0.5
    }
   },
   {
@@ -489,7 +495,10 @@
     }
    ],
    "notes": "",
-   "captions": false
+   "captions": false,
+   "params": {
+    "vfocus": 0.5
+   }
   },
   {
    "id": "u22",
@@ -514,6 +523,9 @@
    "amb": {
     "name": "roomtone",
     "gain": -18
+   },
+   "params": {
+    "vfocus": 0.38
    }
   },
   {
@@ -544,7 +556,10 @@
      "gain": -14
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
   },
   {
    "id": "u24",
@@ -564,7 +579,10 @@
      "gain": -12
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
   },
   {
    "id": "u25",
@@ -589,6 +607,9 @@
    "amb": {
     "name": "hum",
     "gain": -30
+   },
+   "params": {
+    "vfocus": 0.3
    }
   },
   {
@@ -613,6 +634,18 @@
    "amb": {
     "name": "hum",
     "gain": -30
+   },
+   "params": {
+    "vfocusKeys": [
+     [
+      0,
+      0.3
+     ],
+     [
+      0.55,
+      0.7
+     ]
+    ]
    }
   },
   {
