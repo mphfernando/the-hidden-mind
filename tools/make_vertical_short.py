@@ -13,6 +13,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 ap = argparse.ArgumentParser()
 ap.add_argument('--project', required=True); ap.add_argument('--final', required=True); ap.add_argument('--ranges', nargs='+', required=True)
 ap.add_argument('--title1', default=''); ap.add_argument('--title2', default=''); ap.add_argument('--out', required=True); ap.add_argument('--workers', default='3')
+ap.add_argument('--capy', type=int, default=560, help="caption height: ASS MarginV from the bottom (lower = captions sit lower; use ~400 when a shot's own on-screen label collides with them)")
 a = ap.parse_args()
 P = os.path.abspath(a.project); V = P.rstrip('/') + '-vertical'; os.makedirs(os.path.join(V, 'story'), exist_ok=True); os.makedirs(os.path.join(V, 'build'), exist_ok=True)
 for d in ['scenes', 'timeline', 'input']:
@@ -64,11 +65,12 @@ run(['ffmpeg', '-y', '-v', 'error', '-f', 'concat', '-safe', '0', '-i', lst, '-c
 def ts(x): h = int(x // 3600); m = int(x % 3600 // 60); s = x % 60; return f'{h}:{m:02d}:{s:05.2f}'
 ass = ['[Script Info]', 'ScriptType: v4.00+', 'PlayResX: 1080', 'PlayResY: 1920', '', '[V4+ Styles]',
        'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding',
-       'Style: Cap,Inter,92,&H00FFFFFF,&H00FFFFFF,&H00140905,&H96000000,1,0,0,0,100,100,0,0,1,9,4,2,60,60,560,1', '', '[Events]', 'Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text']
-for gi in range(0, len(caps), 3):
-    grp = caps[gi:gi + 3]
+       'Style: Cap,Inter,80,&H00FFFFFF,&H00FFFFFF,&H00140905,&H96000000,1,0,0,0,100,100,0,0,1,8,4,2,50,50,' + str(a.capy) + ',1', '', '[Events]', 'Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text']
+GROUP = 2   # 2 words at 80px always fit one line; 3 wrapped and collided with on-screen labels
+for gi in range(0, len(caps), GROUP):
+    grp = caps[gi:gi + GROUP]
     for j, (s0, s1, w) in enumerate(grp):
-        nxt = caps[gi + 3][0] if gi + 3 < len(caps) else 1e9
+        nxt = caps[gi + GROUP][0] if gi + GROUP < len(caps) else 1e9
         e = grp[j + 1][0] if j + 1 < len(grp) else min(s1 + 0.25, nxt)   # never overlap the next group
         txt = ' '.join(('{\\c&H4AD8FF&}' + re.sub(r'[{}]', '', x[2]).upper() + '{\\c&HFFFFFF&}') if k == j else re.sub(r'[{}]', '', x[2]).upper() for k, x in enumerate(grp))
         ass.append(f'Dialogue: 0,{ts(s0)},{ts(e)},Cap,,0,0,0,,{txt}')
