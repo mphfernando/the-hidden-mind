@@ -57,7 +57,7 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep02 Short 2 Nobody noticed | WtietaE1DD4 | Sat 14 Nov 2026, 6:30 AM |
 | ep02 Short 3 Try this at 2 AM | wwhTZaRkRz8 | Sun 15 Nov 2026, 6:30 AM |
 | ep01 Short 2 retitled "Your worries are lying to you" | ZiM_ea1T5xg | went public 13 Nov 2026, 3:16 AM |
-| ep02 Short 4 "Why one awkward moment beats 10 compliments" | not uploaded yet | built 14 Nov 2026; missed Sat 6:30 AM slot (token expired overnight) |
+| ep02 Short 4 "Why one awkward moment beats 10 compliments" | mXcAfMOrTeQ | uploaded private Sat 14 Nov 2026 ~9:55 AM (missed the 6:30 AM slot; owner publishes) |
 | next Shorts needed from | — | Sun 15 Nov 2026, 6:30 AM (daily) |
 
 ### Performance lessons (update as data comes in)
