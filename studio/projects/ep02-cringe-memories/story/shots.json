@@ -27,7 +27,7 @@
     "gain": -22
    },
    "params": {
-    "vfocus": 0.42
+    "vfocus": 0.45
    }
   },
   {
@@ -48,7 +48,7 @@
     "gain": -22
    },
    "params": {
-    "vfocus": 0.45
+    "vfocus": 0.43
    }
   },
   {
@@ -668,7 +668,10 @@
     }
    ],
    "notes": "",
-   "captions": false
+   "captions": false,
+   "params": {
+    "vfit": true
+   }
   },
   {
    "id": "u28",
@@ -692,6 +695,9 @@
    "amb": {
     "name": "roomtone",
     "gain": -18
+   },
+   "params": {
+    "vfocus": 0.5
    }
   },
   {
@@ -728,7 +734,10 @@
     }
    ],
    "notes": "",
-   "captions": false
+   "captions": false,
+   "params": {
+    "vfit": true
+   }
   },
   {
    "id": "u30",
@@ -752,6 +761,9 @@
    "amb": {
     "name": "roomtone",
     "gain": -22
+   },
+   "params": {
+    "vfocus": 0.45
    }
   },
   {
@@ -776,6 +788,9 @@
    "amb": {
     "name": "roomtone",
     "gain": -22
+   },
+   "params": {
+    "vfocus": 0.46
    }
   },
   {
@@ -794,6 +809,9 @@
    "amb": {
     "name": "roomtone",
     "gain": -22
+   },
+   "params": {
+    "vfocus": 0.48
    }
   },
   {
@@ -818,6 +836,9 @@
    "amb": {
     "name": "roomtone",
     "gain": -22
+   },
+   "params": {
+    "vfocus": 0.53
    }
   },
   {
@@ -842,6 +863,9 @@
    "amb": {
     "name": "roomtone",
     "gain": -22
+   },
+   "params": {
+    "vfit": true
    }
   },
   {
@@ -862,7 +886,10 @@
      "gain": -16
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
   },
   {
    "id": "u36",
