@@ -58,7 +58,7 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep02 Short 3 Try this at 2 AM | wwhTZaRkRz8 | Sun 15 Nov 2026, 6:30 AM |
 | ep01 Short 2 retitled "Your worries are lying to you" | ZiM_ea1T5xg | went public 13 Nov 2026, 3:16 AM |
 | ep02 Short 4 "Why one awkward moment beats 10 compliments" | mXcAfMOrTeQ | uploaded private Sat 14 Nov 2026 ~9:55 AM (missed the 6:30 AM slot; owner publishes) |
-| ep02 Short 5 "Why cringe memories only hit at night" | not uploaded yet | Sun 15 Nov 2026, 6:30 AM |
+| ep02 Short 5 "Why cringe memories only hit at night" | c-Ae7PGNXmE | uploaded private; owner schedules Sun 15 Nov 2026, 6:30 AM |
 | next Shorts needed from | — | Mon 16 Nov 2026, 6:30 AM (daily) |
 
 ### Performance lessons (update as data comes in)
@@ -70,6 +70,9 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 - Vertical Shorts: captions are 2-word groups at 80px (3 words wrapped to 2 lines and collided with on-screen labels).
   When a shot draws its own label low in frame, pass `--capy 410` so captions sit below it. Tokens expire in 1 h, so
   BUILD the Short first, then ask for the token right before uploading.
+- Token troubleshooting: a 401 authError means the token is expired/wrong; a 403 quotaExceeded means the token IS valid
+  and only the shared Playground quota is spent. Uploads often still succeed while reads return 403, so after a 403 try
+  the upload once anyway. Several saved secrets for the same host can also make an old one win.
 - Long episodes get few views on a new channel; Shorts drive discovery. Check numbers with the Data API after 08:00 UTC
   (quota reset = midnight Pacific = 1:30 PM Sri Lanka).
 
