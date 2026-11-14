@@ -452,7 +452,7 @@
     "gain": -28
    },
    "params": {
-    "vfocus": 0.5
+    "vfocus": 0.6
    }
   },
   {
@@ -497,7 +497,7 @@
    "notes": "",
    "captions": false,
    "params": {
-    "vfocus": 0.5
+    "vfit": true
    }
   },
   {
@@ -581,7 +581,7 @@
    ],
    "notes": "",
    "params": {
-    "vfocus": 0.5
+    "vfit": true
    }
   },
   {
