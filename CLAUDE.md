@@ -59,7 +59,8 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep01 Short 2 retitled "Your worries are lying to you" | ZiM_ea1T5xg | went public 13 Nov 2026, 3:16 AM |
 | ep02 Short 4 "Why one awkward moment beats 10 compliments" | mXcAfMOrTeQ | uploaded private Sat 14 Nov 2026 ~9:55 AM (missed the 6:30 AM slot; owner publishes) |
 | ep02 Short 5 "Why cringe memories only hit at night" | c-Ae7PGNXmE | uploaded private; owner schedules Sun 15 Nov 2026, 6:30 AM |
-| next Shorts needed from | — | Mon 16 Nov 2026, 6:30 AM (daily) |
+| ep01 Short 3 "You replayed it 11 times" | IKzRkeshi0I | uploaded private; owner schedules Mon 16 Nov 2026, 6:30 AM |
+| next Shorts needed from | — | Tue 17 Nov 2026, 6:30 AM (daily) |
 
 ### Performance lessons (update as data comes in)
 - 13 Nov 2026 (day 1–2): ep02 Short 1 "you too to a waiter" = 1,417 views / 32 likes in 18 h (best). ep01 Short = 585.
