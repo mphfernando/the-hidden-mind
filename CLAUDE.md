@@ -60,7 +60,8 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep02 Short 4 "Why one awkward moment beats 10 compliments" | mXcAfMOrTeQ | uploaded private Sat 14 Nov 2026 ~9:55 AM (missed the 6:30 AM slot; owner publishes) |
 | ep02 Short 5 "Why cringe memories only hit at night" | c-Ae7PGNXmE | uploaded private; owner schedules Sun 15 Nov 2026, 6:30 AM |
 | ep01 Short 3 "You replayed it 11 times" | IKzRkeshi0I | uploaded private; owner schedules Mon 16 Nov 2026, 6:30 AM |
-| next Shorts needed from | — | Tue 17 Nov 2026, 6:30 AM (daily) |
+| ep02 Short 6 "Your brain marked that cringe IMPORTANT" | _1hVJ1mmYlY | uploaded private; owner schedules Tue 17 Nov 2026, 6:30 AM |
+| next Shorts needed from | — | Wed 18 Nov 2026, 6:30 AM (daily) |
 
 ### Performance lessons (update as data comes in)
 - 13 Nov 2026 (day 1–2): ep02 Short 1 "you too to a waiter" = 1,417 views / 32 likes in 18 h (best). ep01 Short = 585.
@@ -74,6 +75,10 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 - Token troubleshooting: a 401 authError means the token is expired/wrong; a 403 quotaExceeded means the token IS valid
   and only the shared Playground quota is spent. Uploads often still succeed while reads return 403, so after a 403 try
   the upload once anyway. Several saved secrets for the same host can also make an old one win.
+- 17 Nov 2026 view rates (views/hour since publish): "why cringe hits at night" (6:00 AM SL = Sat 19:30 ET) 28.4 — best;
+  "awkward beats 10 compliments" (09:57 SL) 19.9; "you too to a waiter" (20:03 SL) 14.4; "you replayed it 11 times"
+  (10:23 SL) only 3.6. Publish time matters less than the hook: ep02 (cringe/embarrassment) material far outperforms
+  ep01 (general overthinking). Keep the 6:30 AM SL slot and keep hooks on a specific, visual, embarrassing moment.
 - Long episodes get few views on a new channel; Shorts drive discovery. Check numbers with the Data API after 08:00 UTC
   (quota reset = midnight Pacific = 1:30 PM Sri Lanka).
 
