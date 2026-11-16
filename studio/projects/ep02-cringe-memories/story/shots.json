@@ -367,7 +367,7 @@
    ],
    "notes": "",
    "params": {
-    "vfocus": 0.52
+    "vfocus": 0.58
    }
   },
   {
@@ -390,7 +390,7 @@
    ],
    "notes": "",
    "params": {
-    "vfocus": 0.5
+    "vfit": true
    }
   },
   {
