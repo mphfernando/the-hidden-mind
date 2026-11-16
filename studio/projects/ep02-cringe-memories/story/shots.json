@@ -144,6 +144,9 @@
    "amb": {
     "name": "murmur",
     "gain": -26
+   },
+   "params": {
+    "vfocus": 0.42
    }
   },
   {
@@ -170,7 +173,7 @@
     "gain": -26
    },
    "params": {
-    "vfocus": 0.58
+    "vfit": true
    }
   },
   {
@@ -339,7 +342,10 @@
      "gain": -12
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfocus": 0.56
+   }
   },
   {
    "id": "u15",
@@ -359,7 +365,10 @@
      "gain": -12
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfocus": 0.52
+   }
   },
   {
    "id": "u16",
@@ -379,7 +388,10 @@
      "gain": -12
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
   },
   {
    "id": "u17",
