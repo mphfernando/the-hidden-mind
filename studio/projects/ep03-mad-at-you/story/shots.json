@@ -1,0 +1,1641 @@
+{
+ "title": "Why You Always Think Someone Is Mad at You",
+ "duration": 178.6,
+ "shots": [
+  {
+   "id": "f01",
+   "start": 0.0,
+   "end": 2.8,
+   "line": "You text your friend a long, funny message.",
+   "scene": "Night bedroom: Milo sits on the bed edge grinning at his glowing phone, typing fast",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f02",
+   "start": 2.8,
+   "end": 5.28,
+   "line": "Three paragraphs. Two emojis.",
+   "scene": "Phone screen: a long outgoing message fills 3 paragraphs; counters 3 PARAGRAPHS, 2 EMOJIS (two smileys pop)",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.42
+   }
+  },
+  {
+   "id": "f03",
+   "start": 5.28,
+   "end": 6.55,
+   "line": "And she replies:",
+   "scene": "Phone: \"Juno is typing...\" dots bounce under the message",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "tick",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f04",
+   "start": 6.55,
+   "end": 7.38,
+   "line": "\"ok.\"",
+   "scene": "Incoming bubble \"ok.\" slams in, huge",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 0.0,
+     "name": "phonebuzz",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f05",
+   "start": 7.38,
+   "end": 8.59,
+   "line": "With a period.",
+   "scene": "Extreme zoom into the period: the dot fills the frame, red glow, callout THE PERIOD",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f06",
+   "start": 8.59,
+   "end": 9.98,
+   "line": "And just like that...",
+   "scene": "bigFace Milo: grin collapses into a stare",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f07",
+   "start": 9.98,
+   "end": 12.08,
+   "line": "your whole evening is gone.",
+   "scene": "Bedroom wide: lamp dims, Milo slumps on the bed, the Shadow starts to rise on the wall",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hum",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.45
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f08",
+   "start": 12.08,
+   "end": 13.23,
+   "line": "What did I do?",
+   "scene": "Close: thought cloud WHAT DID I DO?",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f09",
+   "start": 13.23,
+   "end": 14.68,
+   "line": "Is she mad at me?",
+   "scene": "More clouds pile up: IS SHE MAD AT ME?",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f10",
+   "start": 14.68,
+   "end": 17.32,
+   "line": "If your brain does this, you're not broken.",
+   "scene": "Void stage: Milo in a spotlight; stamp NOT BROKEN",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocusKeys": [
+     [
+      0,
+      0.48
+     ],
+     [
+      1.8,
+      0.62
+     ]
+    ]
+   }
+  },
+  {
+   "id": "f11",
+   "start": 17.32,
+   "end": 19.78,
+   "line": "You're running very old software.",
+   "scene": "Old CRT computer boots: THREAT DETECTOR, VERY OLD SOFTWARE, loading bar",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "powerup",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f12",
+   "start": 19.78,
+   "end": 22.96,
+   "line": "So why does a two-letter text feel like a threat?",
+   "scene": "Phone bubble \"ok.\" with a red warning triangle: 2 LETTERS = THREAT?",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "buzz",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocusKeys": [
+     [
+      0,
+      0.36
+     ],
+     [
+      2.2,
+      0.72
+     ]
+    ]
+   }
+  },
+  {
+   "id": "f13",
+   "start": 22.96,
+   "end": 25.94,
+   "line": "And why are you almost always wrong about it?",
+   "scene": "Title card: ALMOST ALWAYS WRONG",
+   "set": "title",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "captions": false
+  },
+  {
+   "id": "f14",
+   "start": 25.94,
+   "end": 27.4,
+   "line": "Here's the first problem.",
+   "scene": "Dr. Ada in the study raises a finger; badge PROBLEM #1",
+   "set": "study",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.45
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f15",
+   "start": 27.4,
+   "end": 31.62,
+   "line": "A text has no face. No voice. No smile.",
+   "scene": "Three cards on the words: FACE, VOICE, SMILE, each crossed out next to a bare text bubble",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 1.8,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 2.9,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
+  },
+  {
+   "id": "f16",
+   "start": 31.62,
+   "end": 35.78,
+   "line": "In person, your brain reads tone from a hundred tiny signals.",
+   "scene": "Street at dusk: Juno talks to Milo in person; signal icons (brows, smile, hands, voice waves) swarm; counter 100 SIGNALS on \"hundred\"",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f17",
+   "start": 35.78,
+   "end": 38.73,
+   "line": "In a message, almost all of them are missing.",
+   "scene": "The same signals fade out one by one, leaving one bare text bubble: MISSING",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f18",
+   "start": 38.73,
+   "end": 42.57,
+   "line": "In a well-known study, psychologists Justin Kruger and Nicholas Epley",
+   "scene": "Study: two generic researchers with callouts JUSTIN KRUGER and NICHOLAS EPLEY",
+   "set": "study",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.4
+   },
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f19",
+   "start": 42.57,
+   "end": 47.16,
+   "line": "found that people were confident their emails would be read the way they meant them.",
+   "scene": "A sender at a laptop beams; confidence meter fills to HIGH as an email flies out",
+   "set": "study",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.42
+   },
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f20",
+   "start": 47.16,
+   "end": 50.54,
+   "line": "But readers trying to tell sarcastic messages from serious ones",
+   "scene": "A reader squints at an email: cards SARCASTIC? / SERIOUS?",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocusKeys": [
+     [
+      0,
+      0.42
+     ],
+     [
+      1.0,
+      0.66
+     ]
+    ]
+   }
+  },
+  {
+   "id": "f21",
+   "start": 50.54,
+   "end": 53.2,
+   "line": "did barely better than a coin flip.",
+   "scene": "A coin flips in slow motion: BARELY BETTER THAN A COIN FLIP",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -16
+    },
+    {
+     "at": 1.6,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f22",
+   "start": 53.2,
+   "end": 56.98,
+   "line": "So when the signals go missing... your brain doesn't leave a blank.",
+   "scene": "Blueprint: an empty speech bubble labelled BLANK",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f23",
+   "start": 56.98,
+   "end": 58.26,
+   "line": "It fills it in.",
+   "scene": "A pencil scribbles text into the bubble",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f24",
+   "start": 58.26,
+   "end": 61.8,
+   "line": "And a worried brain fills it in with the worst version.",
+   "scene": "The Shadow writes SHE'S MAD AT YOU in the bubble; label WORST VERSION",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hum",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.55
+   }
+  },
+  {
+   "id": "f25",
+   "start": 61.8,
+   "end": 63.82,
+   "line": "Even the period isn't neutral.",
+   "scene": "A huge period on a balance: NOT NEUTRAL stamp",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f26",
+   "start": 63.82,
+   "end": 66.3,
+   "line": "In one small study, one-word text replies",
+   "scene": "Two phones side by side: \"yeah\" and \"yeah.\"; tag ONE SMALL STUDY",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
+  },
+  {
+   "id": "f27",
+   "start": 66.3,
+   "end": 71.77,
+   "line": "that ended with a period were rated as less sincere than the same word without one.",
+   "scene": "Sincerity meters: \"yeah\" high, \"yeah.\" lower: LESS SINCERE",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
+  },
+  {
+   "id": "f28",
+   "start": 71.77,
+   "end": 74.49,
+   "line": "So your friend typed two letters and a dot.",
+   "scene": "Thumb taps three keys O, K, . : 2 LETTERS + A DOT",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 0.8,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 1.4,
+     "name": "tick",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f29",
+   "start": 74.49,
+   "end": 76.99,
+   "line": "And your brain wrote a whole story.",
+   "scene": "A long scroll unrolls from Milo's head: A WHOLE STORY, chapter titles",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.6
+   },
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f30",
+   "start": 76.99,
+   "end": 79.04,
+   "line": "Now here's where it gets personal.",
+   "scene": "Slow push on Milo on the bed; the Shadow's eyes open behind him",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.45
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f31",
+   "start": 79.04,
+   "end": 81.81,
+   "line": "Psychologists Geraldine Downey and Scott Feldman",
+   "scene": "Study: two generic researchers with callouts GERALDINE DOWNEY and SCOTT FELDMAN",
+   "set": "study",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.4
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f32",
+   "start": 81.81,
+   "end": 85.45,
+   "line": "described something called rejection sensitivity.",
+   "scene": "Title card: REJECTION SENSITIVITY",
+   "set": "title",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "captions": false
+  },
+  {
+   "id": "f33",
+   "start": 85.45,
+   "end": 88.42,
+   "line": "Some of us anxiously expect rejection.",
+   "scene": "Milo with a radar dish on his head, scanning anxiously; label EXPECTING REJECTION",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.42
+   }
+  },
+  {
+   "id": "f34",
+   "start": 88.42,
+   "end": 92.68,
+   "line": "And when you're expecting it, you're more likely to see it in moments that are simply...",
+   "scene": "Radar screen: blips everywhere, each turning red",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 1.6,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f35",
+   "start": 92.68,
+   "end": 93.79,
+   "line": "unclear.",
+   "scene": "Fog rolls over a message bubble: UNCLEAR",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f36",
+   "start": 93.79,
+   "end": 95.06,
+   "line": "A short reply.",
+   "scene": "Card 1: SHORT REPLY (\"k\")",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.25
+   }
+  },
+  {
+   "id": "f37",
+   "start": 95.06,
+   "end": 96.25,
+   "line": "A late reply.",
+   "scene": "Card 2: LATE REPLY (clock hands spin)",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f38",
+   "start": 96.25,
+   "end": 98.59,
+   "line": "A \"seen\" with no answer.",
+   "scene": "Card 3: message marked \"Seen\" and no answer",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.75
+   }
+  },
+  {
+   "id": "f39",
+   "start": 98.59,
+   "end": 102.25,
+   "line": "The Shadow doesn't need evidence. It just needs a gap.",
+   "scene": "The Shadow grows out of a crack-shaped GAP; EVIDENCE crossed out",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hum",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.6
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f40",
+   "start": 102.25,
+   "end": 103.78,
+   "line": "And here's the twist.",
+   "scene": "Big line: THE TWIST (whip in)",
+   "set": "title",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "captions": false
+  },
+  {
+   "id": "f41",
+   "start": 103.78,
+   "end": 106.95,
+   "line": "In 2018, researchers led by Erica Boothby",
+   "scene": "Study: generic researcher, callout ERICA BOOTHBY, badge 2018",
+   "set": "study",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.4
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f42",
+   "start": 106.95,
+   "end": 110.91,
+   "line": "had strangers talk to each other, then asked two questions.",
+   "scene": "Two strangers chat in a spotlight, then two question cards slide in: 2 QUESTIONS",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f43",
+   "start": 110.91,
+   "end": 112.77,
+   "line": "How much did you like your partner?",
+   "scene": "Card Q1: HOW MUCH DID YOU LIKE THEM? slider",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
+  },
+  {
+   "id": "f44",
+   "start": 112.77,
+   "end": 115.49,
+   "line": "And how much do you think they liked you?",
+   "scene": "Card Q2: HOW MUCH DID THEY LIKE YOU? slider",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
+  },
+  {
+   "id": "f45",
+   "start": 115.49,
+   "end": 119.92,
+   "line": "Again and again, people underestimated how much they were liked.",
+   "scene": "Bars: HOW MUCH THEY LIKED YOU (high) vs WHAT YOU THOUGHT (lower), gap arrow: UNDERESTIMATED",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
+  },
+  {
+   "id": "f46",
+   "start": 119.92,
+   "end": 122.56,
+   "line": "The researchers called it the liking gap.",
+   "scene": "Title card: THE LIKING GAP",
+   "set": "title",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "captions": false
+  },
+  {
+   "id": "f47",
+   "start": 122.56,
+   "end": 125.75,
+   "line": "We walk away from conversations thinking we said something weird...",
+   "scene": "Milo walks away down the street, cloud I SAID SOMETHING WEIRD",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.47
+   },
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f48",
+   "start": 125.75,
+   "end": 127.96,
+   "line": "while the other person is thinking,",
+   "scene": "The stranger walks the other way, smiling",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.53
+   },
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f49",
+   "start": 127.96,
+   "end": 129.08,
+   "line": "\"That was nice.\"",
+   "scene": "Stranger's warm cloud: THAT WAS NICE",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "ding",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.53
+   },
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f50",
+   "start": 129.08,
+   "end": 130.98,
+   "line": "Which brings us back to Juno.",
+   "scene": "Back to the phone: the \"ok.\" bubble, then the contact name JUNO glows",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f51",
+   "start": 130.98,
+   "end": 132.96,
+   "line": "Because Juno wasn't mad.",
+   "scene": "Juno bigFace, relaxed; stamp NOT MAD",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocusKeys": [
+     [
+      0,
+      0.42
+     ],
+     [
+      1.2,
+      0.66
+     ]
+    ]
+   }
+  },
+  {
+   "id": "f52",
+   "start": 132.96,
+   "end": 136.44,
+   "line": "Juno was on a crowded bus, typing with one thumb.",
+   "scene": "Crowded night bus: Juno squeezed between passengers, holding a strap, typing with one thumb",
+   "set": "bus",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f53",
+   "start": 136.44,
+   "end": 139.94,
+   "line": "And right now, Juno is staring at her phone, thinking...",
+   "scene": "Juno in her room, staring at her phone",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.49
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f54",
+   "start": 139.94,
+   "end": 141.78,
+   "line": "\"Was 'ok.' too short?",
+   "scene": "Juno's cloud: WAS \"OK.\" TOO SHORT?",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.55
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f55",
+   "start": 141.78,
+   "end": 143.39,
+   "line": "Is Milo mad at me?\"",
+   "scene": "Split screen: Juno and Milo, both staring at phones, both clouds IS ___ MAD AT ME?",
+   "set": "split",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocusKeys": [
+     [
+      0,
+      0.25
+     ],
+     [
+      0.9,
+      0.75
+     ]
+    ]
+   }
+  },
+  {
+   "id": "f56",
+   "start": 143.39,
+   "end": 147.22,
+   "line": "So next time your brain says, \"They're mad at you,\" try this.",
+   "scene": "Sage with tea; the Shadow whispers THEY'RE MAD AT YOU; Sage raises a hand: TRY THIS",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocusKeys": [
+     [
+      0,
+      0.36
+     ],
+     [
+      2.9,
+      0.62
+     ]
+    ]
+   }
+  },
+  {
+   "id": "f57",
+   "start": 147.22,
+   "end": 148.65,
+   "line": "Notice the move.",
+   "scene": "Step 1: NOTICE THE MOVE",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.52
+   }
+  },
+  {
+   "id": "f58",
+   "start": 148.65,
+   "end": 152.77,
+   "line": "That's called mind reading, and your brain is guessing, not knowing.",
+   "scene": "Milo with a crystal ball: MIND READING; GUESSING vs KNOWING",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocusKeys": [
+     [
+      0,
+      0.42
+     ],
+     [
+      2.2,
+      0.72
+     ]
+    ]
+   }
+  },
+  {
+   "id": "f59",
+   "start": 152.77,
+   "end": 156.03,
+   "line": "Then come up with three other reasons for the reply.",
+   "scene": "Step 2: 3 OTHER REASONS",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
+  },
+  {
+   "id": "f60",
+   "start": 156.03,
+   "end": 159.5,
+   "line": "They're busy. They're tired. They just text like that.",
+   "scene": "Three cards pop on the words: BUSY, TIRED, JUST TEXTS LIKE THAT",
+   "set": "void",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.9,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
+  },
+  {
+   "id": "f61",
+   "start": 159.5,
+   "end": 161.28,
+   "line": "And if it still bothers you...",
+   "scene": "Milo on the bed, phone in hand, a small Shadow still in the corner",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.55
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f62",
+   "start": 161.28,
+   "end": 164.46,
+   "line": "ask. One honest \"Hey, are we good?\"",
+   "scene": "Step 3: ASK. Phone: Milo types \"Hey, are we good?\"",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.8,
+     "name": "tick",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocusKeys": [
+     [
+      0,
+      0.3
+     ],
+     [
+      1.2,
+      0.7
+     ]
+    ]
+   }
+  },
+  {
+   "id": "f63",
+   "start": 164.46,
+   "end": 166.88,
+   "line": "can end a whole night of guessing.",
+   "scene": "He hits send; the thought clouds pop one by one; the Shadow shrinks",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "f64",
+   "start": 166.88,
+   "end": 171.18,
+   "line": "Most of the time, the answer is: \"Of course. Why?\"",
+   "scene": "Reply bubble: \"Of course. Why?\" + smiley; Milo laughs; the Shadow is a pebble",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "ding",
+     "gain": -12
+    },
+    {
+     "at": 1.5,
+     "name": "phonebuzz",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "params": {
+    "vfocusKeys": [
+     [
+      0,
+      0.38
+     ],
+     [
+      2.0,
+      0.74
+     ]
+    ]
+   }
+  },
+  {
+   "id": "f65",
+   "start": 171.18,
+   "end": 174.11,
+   "line": "So, what's the text that sent your brain spiraling?",
+   "scene": "Comment prompt: a phone with a spiral: WHAT TEXT SENT YOU SPIRALING?",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   }
+  },
+  {
+   "id": "f66",
+   "start": 174.11,
+   "end": 178.6,
+   "line": "Tell me in the comments. And subscribe for more on the hidden side of your mind.",
+   "scene": "End screen: cast lineup, subscribe",
+   "set": "end",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "vfocus": 0.5
+   },
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 9.98,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 9.98,
+   "end": 25.94,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 25.94,
+   "end": 76.99,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 76.99,
+   "end": 102.25,
+   "mood": "dark",
+   "intensity": 0.45
+  },
+  {
+   "start": 102.25,
+   "end": 129.08,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 129.08,
+   "end": 143.39,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 143.39,
+   "end": 178.6,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ]
+}

@@ -1,1 +1,87 @@
-{"title": "b", "duration": 10, "shots": [{"id": "avatar", "start": 0, "end": 2, "line": "", "scene": "", "bars": "none", "in": {"type": "cut"}, "sfx": [], "vignette": false}, {"id": "banner", "start": 2, "end": 4, "line": "", "scene": "", "bars": "none", "in": {"type": "cut"}, "sfx": [], "vignette": false}, {"id": "wm", "start": 4, "end": 6, "line": "", "scene": "", "bars": "none", "in": {"type": "cut"}, "sfx": [], "vignette": false}, {"id": "thumb", "start": 6, "end": 8, "line": "", "scene": "", "bars": "none", "in": {"type": "cut"}, "sfx": [], "vignette": true}, {"id": "thumb_ep02", "start": 8, "end": 10, "line": "", "scene": "", "bars": "none", "in": {"type": "cut"}, "sfx": [], "vignette": true}], "music": []}
+{
+ "title": "b",
+ "duration": 12,
+ "shots": [
+  {
+   "id": "avatar",
+   "start": 0,
+   "end": 2,
+   "line": "",
+   "scene": "",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "vignette": false
+  },
+  {
+   "id": "banner",
+   "start": 2,
+   "end": 4,
+   "line": "",
+   "scene": "",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "vignette": false
+  },
+  {
+   "id": "wm",
+   "start": 4,
+   "end": 6,
+   "line": "",
+   "scene": "",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "vignette": false
+  },
+  {
+   "id": "thumb",
+   "start": 6,
+   "end": 8,
+   "line": "",
+   "scene": "",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "vignette": true
+  },
+  {
+   "id": "thumb_ep02",
+   "start": 8,
+   "end": 10,
+   "line": "",
+   "scene": "",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "vignette": true
+  },
+  {
+   "id": "thumb_ep03",
+   "start": 10,
+   "end": 12,
+   "line": "",
+   "scene": "ep03 thumbnail",
+   "set": "void",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {}
+  }
+ ],
+ "music": []
+}
