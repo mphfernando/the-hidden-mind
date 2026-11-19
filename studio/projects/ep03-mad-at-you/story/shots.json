@@ -754,7 +754,7 @@
    "sfx": [],
    "notes": "",
    "params": {
-    "vfocus": 0.4
+    "vfocus": 0.36
    },
    "amb": {
     "name": "roomtone",
@@ -775,7 +775,7 @@
    "sfx": [],
    "notes": "",
    "params": {
-    "vfocus": 0.5
+    "vfit": true
    },
    "captions": false
   },
@@ -799,7 +799,16 @@
    ],
    "notes": "",
    "params": {
-    "vfocus": 0.42
+    "vfocusKeys": [
+     [
+      0,
+      0.42
+     ],
+     [
+      1.5,
+      0.68
+     ]
+    ]
    }
   },
   {
@@ -936,7 +945,16 @@
    ],
    "notes": "",
    "params": {
-    "vfocus": 0.6
+    "vfocusKeys": [
+     [
+      0,
+      0.5
+     ],
+     [
+      0.8,
+      0.68
+     ]
+    ]
    },
    "amb": {
     "name": "roomtone",

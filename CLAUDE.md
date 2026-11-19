@@ -95,7 +95,8 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 - 19 Nov 2026: tokens edited in the environment settings do NOT reach a running session: use the credential card.
   `youtube_upload.py` now sends `publishAt` from the metadata JSON (UTC) so uploads are scheduled automatically.
 - 19 Nov 2026: the Playground project also has a DAILY UPLOAD limit (429 rateLimitExceeded, "Video Uploads per day"),
-  separate from the read quota. When it hits, the owner uploads the MP4 in YouTube Studio with the metadata JSON text.
+  separate from the read quota (hit again 19 Nov after 5 uploads in a row: episode + 4 Shorts). When it hits, upload the rest the next
+  day after 08:00 UTC with a fresh token, or the owner uploads in YouTube Studio with the metadata JSON text.
 - Long episodes get few views on a new channel; Shorts drive discovery. Check numbers with the Data API after 08:00 UTC
   (quota reset = midnight Pacific = 1:30 PM Sri Lanka).
 
