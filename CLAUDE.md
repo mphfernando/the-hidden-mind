@@ -65,7 +65,8 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep01 Short 3 "You replayed it 11 times" | IKzRkeshi0I | uploaded private; owner schedules Mon 16 Nov 2026, 6:30 AM |
 | ep02 Short 6 "Your brain marked that cringe IMPORTANT" | _1hVJ1mmYlY | uploaded private; owner schedules Tue 17 Nov 2026, 6:30 AM |
 | ep01 Short 4 "Why did I say that? There's a name for it" | vX0lh9xvc84 | uploaded private; owner schedules Wed 18 Nov 2026, 6:30 AM |
-| next Shorts needed from | — | Thu 19 Nov 2026, 6:30 AM (daily) |
+| ep02 Short 7 "Everyone forgot that moment. Except you." | — | built 19 Nov; API upload blocked (429 daily upload limit on the Playground project) → owner uploads via Studio, publish Thu 19 Nov ASAP (6:30 AM slot was missed) |
+| next Shorts needed from | — | Fri 20 Nov 2026, 6:30 AM (daily) |
 
 ### Performance lessons (update as data comes in)
 - 13 Nov 2026 (day 1–2): ep02 Short 1 "you too to a waiter" = 1,417 views / 32 likes in 18 h (best). ep01 Short = 585.
@@ -83,6 +84,8 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
   "awkward beats 10 compliments" (09:57 SL) 19.9; "you too to a waiter" (20:03 SL) 14.4; "you replayed it 11 times"
   (10:23 SL) only 3.6. Publish time matters less than the hook: ep02 (cringe/embarrassment) material far outperforms
   ep01 (general overthinking). Keep the 6:30 AM SL slot and keep hooks on a specific, visual, embarrassing moment.
+- 19 Nov 2026: the Playground project also has a DAILY UPLOAD limit (429 rateLimitExceeded, "Video Uploads per day"),
+  separate from the read quota. When it hits, the owner uploads the MP4 in YouTube Studio with the metadata JSON text.
 - Long episodes get few views on a new channel; Shorts drive discovery. Check numbers with the Data API after 08:00 UTC
   (quota reset = midnight Pacific = 1:30 PM Sri Lanka).
 

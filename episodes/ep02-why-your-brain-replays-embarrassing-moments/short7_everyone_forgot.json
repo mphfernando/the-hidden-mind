@@ -22,5 +22,6 @@
  "title1": "EVERYONE FORGOT",
  "title2": "EXCEPT YOU",
  "planned": "Thu 19 Nov 2026 (today's 6:30 AM slot was missed: publish as soon as possible), or Fri 20 Nov 2026, 6:30 AM Sri Lanka",
- "notes": "Soundtrack rebuilt from the ep02 project (build/mix.wav) because the finished episode MP4 isn't kept in the repo."
+ "notes": "Soundtrack rebuilt from the ep02 project (build/mix.wav) because the finished episode MP4 isn't kept in the repo.",
+ "status": "API upload refused 19 Nov 2026 (429 daily upload limit); owner uploads via YouTube Studio"
 }
