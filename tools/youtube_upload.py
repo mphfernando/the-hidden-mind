@@ -32,6 +32,7 @@ def upload(video, meta, privacy):
     body = {"snippet": {"title": meta["title"][:100], "description": meta.get("description", "")[:5000],
                         "tags": meta.get("tags", []), "categoryId": str(meta.get("categoryId", "27"))},
             "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": bool(meta.get("madeForKids", False))}}
+    if meta.get("publishAt") and privacy == "private": body["status"]["publishAt"] = meta["publishAt"]   # scheduled: goes public at this UTC time
     _, hdr, _ = req("POST", f"{API}/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
                     json.dumps(body).encode(), {"Content-Type": "application/json; charset=UTF-8",
                     "X-Upload-Content-Type": "video/mp4", "X-Upload-Content-Length": str(size)})

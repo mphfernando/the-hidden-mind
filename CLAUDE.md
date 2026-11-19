@@ -66,7 +66,15 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep02 Short 6 "Your brain marked that cringe IMPORTANT" | _1hVJ1mmYlY | uploaded private; owner schedules Tue 17 Nov 2026, 6:30 AM |
 | ep01 Short 4 "Why did I say that? There's a name for it" | vX0lh9xvc84 | uploaded private; owner schedules Wed 18 Nov 2026, 6:30 AM |
 | ep02 Short 7 "Everyone forgot that moment. Except you." | — | built 19 Nov; API upload blocked (429 daily upload limit on the Playground project) → owner uploads via Studio, publish Thu 19 Nov ASAP (6:30 AM slot was missed) |
-| next Shorts needed from | — | Fri 20 Nov 2026, 6:30 AM (daily) |
+| ep03 Why You Always Think Someone Is Mad at You | — | built 19 Nov; owner uploads via Studio, schedule Fri 20 Nov 2026, 12:30 AM |
+| ep03 Short 1 She replied "ok." with a period 😬 | — | Fri 20 Nov 2026, 6:30 AM (owner uploads) |
+| ep03 Short 2 People like you more than you think 💛 | — | Sat 21 Nov 2026, 6:30 AM (owner uploads) |
+| ep03 Short 3 Why "ok." with a period feels rude 😶 | — | Sun 22 Nov 2026, 6:30 AM (owner uploads) |
+| ep03 Short 4 Your texts don't sound the way you think 🪙 | — | Mon 23 Nov 2026, 6:30 AM (owner uploads) |
+| ep03 Short 5 A late reply. A "seen". Your brain panics. | — | Tue 24 Nov 2026, 6:30 AM (owner uploads) |
+| ep03 Short 6 Think someone is mad at you? Try this 🧠 | — | Wed 25 Nov 2026, 6:30 AM (owner uploads) |
+| ep03 Short 7 Why a 2-letter text feels like a threat ⚠️ | — | Thu 26 Nov 2026, 6:30 AM (owner uploads) |
+| next Shorts needed from | — | Fri 27 Nov 2026, 6:30 AM (daily; ep04 Short 1) |
 
 ### Performance lessons (update as data comes in)
 - 13 Nov 2026 (day 1–2): ep02 Short 1 "you too to a waiter" = 1,417 views / 32 likes in 18 h (best). ep01 Short = 585.
