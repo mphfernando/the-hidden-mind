@@ -69,7 +69,7 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep03 Why You Always Think Someone Is Mad at You | 1nVuUlwU6Vk | uploaded private + scheduled (publishAt) Fri 20 Nov 2026, 12:30 AM; thumbnail set |
 | ep03 Short 1 She replied "ok." with a period 😬 | 3RyCOFgfty8 | uploaded private + scheduled Fri 20 Nov 2026, 6:30 AM |
 | ep03 Short 2 People like you more than you think 💛 | Cg_zgNi_Pmo | uploaded private + scheduled Sat 21 Nov 2026, 6:30 AM |
-| ep03 Short 3 Why "ok." with a period feels rude 😶 | — | Sun 22 Nov 2026, 6:30 AM (owner uploads) |
+| ep03 Short 3 Why "ok." with a period feels rude 😶 | AYujhmEOqr4 | uploaded private + scheduled Sun 22 Nov 2026, 6:30 AM |
 | ep03 Short 4 Your texts don't sound the way you think 🪙 | — | Mon 23 Nov 2026, 6:30 AM (owner uploads) |
 | ep03 Short 5 A late reply. A "seen". Your brain panics. | — | Tue 24 Nov 2026, 6:30 AM (owner uploads) |
 | ep03 Short 6 Think someone is mad at you? Try this 🧠 | — | Wed 25 Nov 2026, 6:30 AM (owner uploads) |
