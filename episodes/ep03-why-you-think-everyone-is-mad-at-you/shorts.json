@@ -103,7 +103,9 @@
   "categoryId": "27",
   "madeForKids": false,
   "duration": 25.8,
-  "publishAt": "2026-11-23T01:00:00Z"
+  "publishAt": "2026-11-23T01:00:00Z",
+  "youtube_id": "pQxAMbkN50E",
+  "status": "uploaded PRIVATE via API, publishAt 2026-11-23T01:00:00Z"
  },
  {
   "file": "short5_rejection_sensitivity.mp4",
