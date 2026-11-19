@@ -9,6 +9,9 @@ word captions ON, generated music + SFX. Narrator: ElevenLabs "Roger – Laid-Ba
   for every later episode: `scenes/cast.js` (the cast), `scenes/accessories.js` (headphones, scarf, tie, …),
   `scenes/sets/` (bedroom [night/dawn via `{mood}`], study, street, motifs.js [thought clouds, the Shadow, wheel, head],
   kit2.js [wt/camOn/toScr/voidStage/icons/stamp/flipCard/field/titleBackdrop]), `scenes/shots/*.js` (69 shots).
+- `studio3d/` — 3D pipeline: Three.js scenes (react-three-fiber + @remotion/three) with Remotion for captions, audio and
+  rendering. `src/kit/` (Milo3D, Captions, Label3D, theme), `src/demo/Ep01Demo3D.tsx` (test: ep01's first 11 s in 3D).
+  See `studio3d/README.md`. Renders ~3 fps here (no GPU) with the /opt/pw-browsers headless shell.
 - `studio/projects/character-lab/` — character design cards; `studio/projects/branding/` — avatar, banner, watermark, thumbnail.
 - `plugin/` — the GrowKaz Stickman plugin (skills + references: style bible, engine API, render QC, sound design). READ
   `plugin/skills/make-2d-video/SKILL.md` and its `references/` before building shots.
@@ -122,5 +125,6 @@ If uploads stay locked as private ("unverified API project"), the owner publishe
 
 ## Known environment limits (cloud sessions)
 - huggingface.co blocked → no Whisper; use align_to_pauses.py with the exact script.
-- Remotion/Chrome downloads blocked → use /opt/pw-browsers Chromium.
+- Remotion's Chrome download is blocked → `studio3d/remotion.config.ts` points Remotion at the /opt/pw-browsers headless shell
+  (SwiftShader WebGL). Remotion itself installs fine from npm.
 - Memory: never ffmpeg-trim many ranges from a long video in one filter graph (OOM) — cut pieces separately.
