@@ -66,8 +66,8 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep02 Short 6 "Your brain marked that cringe IMPORTANT" | _1hVJ1mmYlY | uploaded private; owner schedules Tue 17 Nov 2026, 6:30 AM |
 | ep01 Short 4 "Why did I say that? There's a name for it" | vX0lh9xvc84 | uploaded private; owner schedules Wed 18 Nov 2026, 6:30 AM |
 | ep02 Short 7 "Everyone forgot that moment. Except you." | — | built 19 Nov; API upload blocked (429 daily upload limit on the Playground project) → owner uploads via Studio, publish Thu 19 Nov ASAP (6:30 AM slot was missed) |
-| ep03 Why You Always Think Someone Is Mad at You | — | built 19 Nov; owner uploads via Studio, schedule Fri 20 Nov 2026, 12:30 AM |
-| ep03 Short 1 She replied "ok." with a period 😬 | — | Fri 20 Nov 2026, 6:30 AM (owner uploads) |
+| ep03 Why You Always Think Someone Is Mad at You | 1nVuUlwU6Vk | uploaded private + scheduled (publishAt) Fri 20 Nov 2026, 12:30 AM; thumbnail set |
+| ep03 Short 1 She replied "ok." with a period 😬 | 3RyCOFgfty8 | uploaded private + scheduled Fri 20 Nov 2026, 6:30 AM |
 | ep03 Short 2 People like you more than you think 💛 | — | Sat 21 Nov 2026, 6:30 AM (owner uploads) |
 | ep03 Short 3 Why "ok." with a period feels rude 😶 | — | Sun 22 Nov 2026, 6:30 AM (owner uploads) |
 | ep03 Short 4 Your texts don't sound the way you think 🪙 | — | Mon 23 Nov 2026, 6:30 AM (owner uploads) |
@@ -92,6 +92,8 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
   "awkward beats 10 compliments" (09:57 SL) 19.9; "you too to a waiter" (20:03 SL) 14.4; "you replayed it 11 times"
   (10:23 SL) only 3.6. Publish time matters less than the hook: ep02 (cringe/embarrassment) material far outperforms
   ep01 (general overthinking). Keep the 6:30 AM SL slot and keep hooks on a specific, visual, embarrassing moment.
+- 19 Nov 2026: tokens edited in the environment settings do NOT reach a running session: use the credential card.
+  `youtube_upload.py` now sends `publishAt` from the metadata JSON (UTC) so uploads are scheduled automatically.
 - 19 Nov 2026: the Playground project also has a DAILY UPLOAD limit (429 rateLimitExceeded, "Video Uploads per day"),
   separate from the read quota. When it hits, the owner uploads the MP4 in YouTube Studio with the metadata JSON text.
 - Long episodes get few views on a new channel; Shorts drive discovery. Check numbers with the Data API after 08:00 UTC
