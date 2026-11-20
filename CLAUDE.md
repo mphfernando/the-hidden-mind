@@ -9,6 +9,9 @@ word captions ON, generated music + SFX. Narrator: ElevenLabs "Roger – Laid-Ba
   for every later episode: `scenes/cast.js` (the cast), `scenes/accessories.js` (headphones, scarf, tie, …),
   `scenes/sets/` (bedroom [night/dawn via `{mood}`], study, street, motifs.js [thought clouds, the Shadow, wheel, head],
   kit2.js [wt/camOn/toScr/voidStage/icons/stamp/flipCard/field/titleBackdrop]), `scenes/shots/*.js` (69 shots).
+- `studio3d/` — 3D pipeline: Three.js scenes (react-three-fiber + @remotion/three) with Remotion for captions, audio and
+  rendering. `src/kit/` (Milo3D, Captions, Label3D, theme), `src/demo/Ep01Demo3D.tsx` (test: ep01's first 11 s in 3D).
+  See `studio3d/README.md`. Renders ~3 fps here (no GPU) with the /opt/pw-browsers headless shell.
 - `studio/projects/character-lab/` — character design cards; `studio/projects/branding/` — avatar, banner, watermark, thumbnail.
 - `plugin/` — the GrowKaz Stickman plugin (skills + references: style bible, engine API, render QC, sound design). READ
   `plugin/skills/make-2d-video/SKILL.md` and its `references/` before building shots.
@@ -62,7 +65,16 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep01 Short 3 "You replayed it 11 times" | IKzRkeshi0I | uploaded private; owner schedules Mon 16 Nov 2026, 6:30 AM |
 | ep02 Short 6 "Your brain marked that cringe IMPORTANT" | _1hVJ1mmYlY | uploaded private; owner schedules Tue 17 Nov 2026, 6:30 AM |
 | ep01 Short 4 "Why did I say that? There's a name for it" | vX0lh9xvc84 | uploaded private; owner schedules Wed 18 Nov 2026, 6:30 AM |
-| next Shorts needed from | — | Thu 19 Nov 2026, 6:30 AM (daily) |
+| ep02 Short 7 "Everyone forgot that moment. Except you." | — | built 19 Nov; API upload blocked (429 daily upload limit on the Playground project) → owner uploads via Studio, publish Thu 19 Nov ASAP (6:30 AM slot was missed) |
+| ep03 Why You Always Think Someone Is Mad at You | 1nVuUlwU6Vk | uploaded private + scheduled (publishAt) Fri 20 Nov 2026, 12:30 AM; thumbnail set |
+| ep03 Short 1 She replied "ok." with a period 😬 | 3RyCOFgfty8 | uploaded private + scheduled Fri 20 Nov 2026, 6:30 AM |
+| ep03 Short 2 People like you more than you think 💛 | Cg_zgNi_Pmo | uploaded private + scheduled Sat 21 Nov 2026, 6:30 AM |
+| ep03 Short 3 Why "ok." with a period feels rude 😶 | AYujhmEOqr4 | uploaded private + scheduled Sun 22 Nov 2026, 6:30 AM |
+| ep03 Short 4 Your texts don't sound the way you think 🪙 | pQxAMbkN50E | uploaded private + scheduled Mon 23 Nov 2026, 6:30 AM |
+| ep03 Short 5 A late reply. A "seen". Your brain panics. | — | Tue 24 Nov 2026, 6:30 AM (owner uploads) |
+| ep03 Short 6 Think someone is mad at you? Try this 🧠 | — | Wed 25 Nov 2026, 6:30 AM (owner uploads) |
+| ep03 Short 7 Why a 2-letter text feels like a threat ⚠️ | — | Thu 26 Nov 2026, 6:30 AM (owner uploads) |
+| next Shorts needed from | — | Fri 27 Nov 2026, 6:30 AM (daily; ep04 Short 1) |
 
 ### Performance lessons (update as data comes in)
 - 13 Nov 2026 (day 1–2): ep02 Short 1 "you too to a waiter" = 1,417 views / 32 likes in 18 h (best). ep01 Short = 585.
@@ -80,6 +92,11 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
   "awkward beats 10 compliments" (09:57 SL) 19.9; "you too to a waiter" (20:03 SL) 14.4; "you replayed it 11 times"
   (10:23 SL) only 3.6. Publish time matters less than the hook: ep02 (cringe/embarrassment) material far outperforms
   ep01 (general overthinking). Keep the 6:30 AM SL slot and keep hooks on a specific, visual, embarrassing moment.
+- 19 Nov 2026: tokens edited in the environment settings do NOT reach a running session: use the credential card.
+  `youtube_upload.py` now sends `publishAt` from the metadata JSON (UTC) so uploads are scheduled automatically.
+- 19 Nov 2026: the Playground project also has a DAILY UPLOAD limit (429 rateLimitExceeded, "Video Uploads per day"),
+  separate from the read quota (hit again 19 Nov after 5 uploads in a row: episode + 4 Shorts). When it hits, upload the rest the next
+  day after 08:00 UTC with a fresh token, or the owner uploads in YouTube Studio with the metadata JSON text.
 - Long episodes get few views on a new channel; Shorts drive discovery. Check numbers with the Data API after 08:00 UTC
   (quota reset = midnight Pacific = 1:30 PM Sri Lanka).
 
@@ -122,5 +139,6 @@ If uploads stay locked as private ("unverified API project"), the owner publishe
 
 ## Known environment limits (cloud sessions)
 - huggingface.co blocked → no Whisper; use align_to_pauses.py with the exact script.
-- Remotion/Chrome downloads blocked → use /opt/pw-browsers Chromium.
+- Remotion's Chrome download is blocked → `studio3d/remotion.config.ts` points Remotion at the /opt/pw-browsers headless shell
+  (SwiftShader WebGL). Remotion itself installs fine from npm.
 - Memory: never ffmpeg-trim many ranges from a long video in one filter graph (OOM) — cut pieces separately.

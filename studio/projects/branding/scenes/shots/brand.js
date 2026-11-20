@@ -94,3 +94,21 @@ registerShot('thumb_ep02', { draw(g, t) {
   // hook text, top area, bottom-right kept clear
   text(g, "IT'S 2 AM", E.W * 0.66, E.H * 0.74, { size: 190, color: '#ffd84a', stroke: 26, strokeColor: '#050914', spacing: 3, glow: 40, glowColor: 'rgba(255,200,60,.55)' });
 } });
+// EP03 THUMBNAIL — "ARE THEY MAD?": Milo's worried face, a huge "ok." text bubble with a glowing red period; bottom-right kept clear.
+registerShot('thumb_ep03', { draw(g, t) {
+  backdrop(g, ['#050914', '#0c1630', '#132449']); FX.stars(g, 0, { count: 90, area: [0, 0, E.W, E.H * 0.7] });
+  glow(g, E.W * 0.62, E.H * 0.34, 640, '#7fd0ff', 0.16);
+  fearShadow(g, E.W * 0.44, E.H * 1.02, 760, 0, { eyes: 1, color: 'rgba(2,4,10,.72)' });
+  // the reply bubble
+  const bx = E.W * 0.63, by = E.H * 0.33; g.save(); g.translate(bx, by); g.rotate(-0.05);
+  rr(g, -330, -150, 660, 300, 130); g.fillStyle = '#2c3a52'; g.fill(); g.strokeStyle = 'rgba(160,220,255,.6)'; g.lineWidth = 8; g.stroke();
+  g.fillStyle = '#2c3a52'; g.beginPath(); g.moveTo(-250, 120); g.lineTo(-330, 190); g.lineTo(-190, 140); g.closePath(); g.fill();
+  text(g, 'ok', -40, 14, { size: 230, color: '#ffffff', font: FONTS.ui, weight: 900 });
+  glow(g, 170, 70, 110, '#ff5a4a', 0.75); circle(g, 170, 70, 30, '#ff6f61'); g.restore();
+  // Milo, worried, lit by the phone
+  const fx = E.W * 0.19, fy = E.H * 0.68, r = 250;
+  glow(g, fx + 120, fy + 160, 320, '#9fd8ff', 0.3);
+  bigFace(g, fx, fy, r, { outfit: YOU, expr: 'worried', face: { brows: 'angry' }, look: [0.9, -0.6], rimColor: '#7fe0ff', rimSide: -1 }); faceAcc(g, fx, fy, r, MACC, MCOL);
+  circle(g, fx + r * 0.78, fy - r * 0.55, 14, '#bfefff'); g.fillStyle = '#bfefff'; g.beginPath(); g.moveTo(fx + r * 0.78 - 14, fy - r * 0.55); g.lineTo(fx + r * 0.78, fy - r * 0.55 - 40); g.lineTo(fx + r * 0.78 + 14, fy - r * 0.55); g.fill();
+  text(g, 'ARE THEY MAD?', E.W * 0.645, E.H * 0.74, { size: 158, color: '#ffd84a', stroke: 26, strokeColor: '#050914', spacing: 3, glow: 40, glowColor: 'rgba(255,200,60,.55)' });
+} });

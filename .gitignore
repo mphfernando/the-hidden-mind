@@ -5,3 +5,4 @@ studio/projects/*/out/
 __pycache__/
 studio/node_modules
 studio/projects/*-vertical/
+deliver/
