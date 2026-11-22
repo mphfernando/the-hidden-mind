@@ -71,9 +71,9 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep03 Short 2 People like you more than you think 💛 | Cg_zgNi_Pmo | uploaded private + scheduled Sat 21 Nov 2026, 6:30 AM |
 | ep03 Short 3 Why "ok." with a period feels rude 😶 | AYujhmEOqr4 | uploaded private + scheduled Sun 22 Nov 2026, 6:30 AM |
 | ep03 Short 4 Your texts don't sound the way you think 🪙 | pQxAMbkN50E | uploaded private + scheduled Mon 23 Nov 2026, 6:30 AM |
-| ep03 Short 5 A late reply. A "seen". Your brain panics. | — | Tue 24 Nov 2026, 6:30 AM (owner uploads) |
-| ep03 Short 6 Think someone is mad at you? Try this 🧠 | — | Wed 25 Nov 2026, 6:30 AM (owner uploads) |
-| ep03 Short 7 Why a 2-letter text feels like a threat ⚠️ | — | Thu 26 Nov 2026, 6:30 AM (owner uploads) |
+| ep03 Short 5 A late reply. A "seen". Your brain panics. | gQZVBF9chMQ | uploaded private + scheduled Tue 24 Nov 2026, 6:30 AM |
+| ep03 Short 6 Think someone is mad at you? Try this 🧠 | — | Wed 25 Nov 2026, 6:30 AM (429 on 22 Nov; upload Mon after 08:00 UTC or owner) |
+| ep03 Short 7 Why a 2-letter text feels like a threat ⚠️ | — | Thu 26 Nov 2026, 6:30 AM (429 on 22 Nov; upload Mon after 08:00 UTC or owner) |
 | next Shorts needed from | — | Fri 27 Nov 2026, 6:30 AM (daily; ep04 Short 1) |
 
 ### Performance lessons (update as data comes in)
@@ -97,6 +97,16 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 - 19 Nov 2026: the Playground project also has a DAILY UPLOAD limit (429 rateLimitExceeded, "Video Uploads per day"),
   separate from the read quota (hit again 19 Nov after 5 uploads in a row: episode + 4 Shorts). When it hits, upload the rest the next
   day after 08:00 UTC with a fresh token, or the owner uploads in YouTube Studio with the metadata JSON text.
+- 22 Nov 2026 ANALYTICS (12–19 Nov, `tools/youtube_stats.py`, saved in channel/analytics/): ~9,000 views, 13 subs.
+  96% of views come from the Shorts feed; 99.6% of viewers are not subscribed. Every Short plateaus at ~1,000–1,450 views
+  (YouTube's first test pool) and none broke out. Best retention: ep03 Short 1 "ok." with a period = 87.6% avg viewed,
+  25 s, 3 subs. Weakest: "awkward beats 10 compliments" 41% (9 s avg) despite 1,246 views. SHARES = 4 in 9,000 views and
+  comments = 2: the missing signal. 18 Nov (no fresh Short live) = 9 views: never leave a day without a new Short.
+  Episodes: 3–14 views each. Countries: US 13%, then PH, IN, CA, GB, AU, ID, MY. Subs per 1,000 views ≈ 1.4.
+  Rules from this: model every Short on the "ok." Short (specific moment in second 1, ≤25 s, loop); add a share line
+  ("send this to the friend who…"); post 2 Shorts/day ~12 h apart; Shorts first, episodes second.
+- The Analytics API (host youtubeanalytics.googleapis.com, scope yt-analytics.readonly) has its own quota: it worked on
+  22 Nov while the Data API (www.googleapis.com) was 403 quotaExceeded. Save the same token for both hosts.
 - Long episodes get few views on a new channel; Shorts drive discovery. Check numbers with the Data API after 08:00 UTC
   (quota reset = midnight Pacific = 1:30 PM Sri Lanka).
 
