@@ -580,6 +580,9 @@
    "amb": {
     "name": "roomtone",
     "gain": -22
+   },
+   "params": {
+    "vfocus": 0.33
    }
   },
   {
