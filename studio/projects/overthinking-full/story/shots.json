@@ -885,6 +885,9 @@
    "amb": {
     "name": "hum",
     "gain": -28
+   },
+   "params": {
+    "vfocus": 0.34
    }
   },
   {
@@ -909,6 +912,9 @@
    "amb": {
     "name": "hum",
     "gain": -28
+   },
+   "params": {
+    "vfocus": 0.44
    }
   },
   {
