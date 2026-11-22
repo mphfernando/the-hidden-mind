@@ -157,7 +157,9 @@
   "categoryId": "27",
   "madeForKids": false,
   "duration": 27.8,
-  "publishAt": "2026-11-25T01:00:00Z"
+  "publishAt": "2026-11-25T01:00:00Z",
+  "youtube_id": "2e4f_dUdxVc",
+  "status": "uploaded PRIVATE via API 22 Nov, publishAt 2026-11-25T01:00:00Z"
  },
  {
   "file": "short7_old_software.mp4",
@@ -182,6 +184,8 @@
   "categoryId": "27",
   "madeForKids": false,
   "duration": 21.7,
-  "publishAt": "2026-11-26T01:00:00Z"
+  "publishAt": "2026-11-26T01:00:00Z",
+  "youtube_id": "sRzFe3NITfI",
+  "status": "uploaded PRIVATE via API 22 Nov, publishAt 2026-11-26T01:00:00Z"
  }
 ]

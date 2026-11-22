@@ -77,8 +77,10 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep03 Short 3 Why "ok." with a period feels rude 😶 | AYujhmEOqr4 | uploaded private + scheduled Sun 22 Nov 2026, 6:30 AM |
 | ep03 Short 4 Your texts don't sound the way you think 🪙 | pQxAMbkN50E | uploaded private + scheduled Mon 23 Nov 2026, 6:30 AM |
 | ep03 Short 5 A late reply. A "seen". Your brain panics. | gQZVBF9chMQ | uploaded private + scheduled Tue 24 Nov 2026, 6:30 AM |
-| ep03 Short 6 Think someone is mad at you? Try this 🧠 | — | Wed 25 Nov 2026, 6:30 AM (429 on 22 Nov; upload Mon after 08:00 UTC or owner) |
-| ep03 Short 7 Why a 2-letter text feels like a threat ⚠️ | — | Thu 26 Nov 2026, 6:30 AM (429 on 22 Nov; upload Mon after 08:00 UTC or owner) |
+| ep03 Short 6 Think someone is mad at you? Try this 🧠 | 2e4f_dUdxVc | uploaded private + scheduled Wed 25 Nov 2026, 6:30 AM |
+| ep03 Short 7 Why a 2-letter text feels like a threat ⚠️ | sRzFe3NITfI | uploaded private + scheduled Thu 26 Nov 2026, 6:30 AM |
+| ep03 Short 8 She said "ok." Your brain heard "I hate you" 😬 | Y4HZn3IHPLs | uploaded private + scheduled Mon 23 Nov 2026, 2:30 PM |
+| ep02 Short 8 Said "you too" to the waiter? Try this tonight 🌙 | 5W7lxaOiDaw | uploaded private + scheduled Mon 23 Nov 2026, 10:30 PM |
 | next Shorts needed from | — | Fri 27 Nov 2026, 6:30 AM; from then 3 Shorts/day (6:30 AM, 2:30 PM, 10:30 PM) |
 
 ### Performance lessons (update as data comes in)
@@ -100,7 +102,7 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 - 19 Nov 2026: tokens edited in the environment settings do NOT reach a running session: use the credential card.
   `youtube_upload.py` now sends `publishAt` from the metadata JSON (UTC) so uploads are scheduled automatically.
 - 19 Nov 2026: the Playground project also has a DAILY UPLOAD limit (429 rateLimitExceeded, "Video Uploads per day"),
-  separate from the read quota (hit again 19 Nov after 5 uploads in a row: episode + 4 Shorts). When it hits, upload the rest the next
+  separate from the read quota; it is not a fixed reset time: 429 at 18:55 UTC 22 Nov, uploads worked again by 19:20 UTC (hit again 19 Nov after 5 uploads in a row: episode + 4 Shorts). When it hits, upload the rest the next
   day after 08:00 UTC with a fresh token, or the owner uploads in YouTube Studio with the metadata JSON text.
 - 22 Nov 2026 ANALYTICS (12–19 Nov, `tools/youtube_stats.py`, saved in channel/analytics/): ~9,000 views, 13 subs.
   96% of views come from the Shorts feed; 99.6% of viewers are not subscribed. Every Short plateaus at ~1,000–1,450 views
