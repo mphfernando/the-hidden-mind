@@ -1718,7 +1718,10 @@
      "gain": -12
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
   },
   {
    "id": "t42",
@@ -1738,7 +1741,10 @@
      "gain": -12
     }
    ],
-   "notes": ""
+   "notes": "",
+   "params": {
+    "vfit": true
+   }
   },
   {
    "id": "t43",
