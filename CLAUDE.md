@@ -36,10 +36,15 @@ Real researchers named in a script are drawn as GENERIC figures (no likeness) wi
 
 ## Publishing schedule (owner's standing instruction — Sri Lanka time, UTC+5:30)
 Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make every Sri Lanka time 1 hour earlier).
-- **Episodes: weekly, Friday 12:30 AM Sri Lanka** (= US Thursday 2 PM ET, 19:00 UTC Thursday).
-- **Shorts: DAILY at 6:30 AM Sri Lanka** (= US 8 PM ET the previous evening, 01:00 UTC). The first Short of an episode
-  goes out the same Friday 6:30 AM; the rest follow one per day. Cut 5–8 Shorts per episode (full-screen 9:16,
-  `tools/make_vertical_short.py`) so there is always a Short for every day until the next episode.
+- **(Owner decision 22 Nov 2026, starts with ep04) Episodes: TWICE a week, Tuesday 12:30 AM and Friday 12:30 AM Sri Lanka**
+  (= US Monday / Thursday 2 PM ET; 19:00 UTC the day before).
+- **Shorts: THREE a day, 8 h apart: 6:30 AM, 2:30 PM, 10:30 PM Sri Lanka** (= 01:00, 09:00, 17:00 UTC = US 8 PM, 4 AM,
+  12 PM ET; 2:30 PM SL also hits evening Philippines/Indonesia/Malaysia, morning UK). Never two Shorts closer than 8 h.
+- Weekly supply = 21 Shorts: 7 cut from each of the 2 episodes (full-screen 9:16, `tools/make_vertical_short.py`) + 7
+  standalone Shorts written as Shorts (hook-first "ok."-model, ~60 words, share line, loop ending). The owner records the
+  2 episode scripts + one batch of 7 Short scripts per week. Each episode's first Short goes out at the next 6:30 AM slot.
+- Uploads: ~23/week; the Playground project allows ~5 uploads/day, so upload daily with a fresh token (credential card)
+  or the owner schedules the week in YouTube Studio.
 - The owner asks Claude to create each batch when needed ("make the shorts"); Claude also proposes Short ideas from
   existing episodes so the daily queue never runs dry.
 - Scheduling: set `status.publishAt` (with privacy private) on upload when the API allows; otherwise give the owner the
@@ -74,7 +79,7 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep03 Short 5 A late reply. A "seen". Your brain panics. | gQZVBF9chMQ | uploaded private + scheduled Tue 24 Nov 2026, 6:30 AM |
 | ep03 Short 6 Think someone is mad at you? Try this 🧠 | — | Wed 25 Nov 2026, 6:30 AM (429 on 22 Nov; upload Mon after 08:00 UTC or owner) |
 | ep03 Short 7 Why a 2-letter text feels like a threat ⚠️ | — | Thu 26 Nov 2026, 6:30 AM (429 on 22 Nov; upload Mon after 08:00 UTC or owner) |
-| next Shorts needed from | — | Fri 27 Nov 2026, 6:30 AM (daily; ep04 Short 1) |
+| next Shorts needed from | — | Fri 27 Nov 2026, 6:30 AM; from then 3 Shorts/day (6:30 AM, 2:30 PM, 10:30 PM) |
 
 ### Performance lessons (update as data comes in)
 - 13 Nov 2026 (day 1–2): ep02 Short 1 "you too to a waiter" = 1,417 views / 32 likes in 18 h (best). ep01 Short = 585.
