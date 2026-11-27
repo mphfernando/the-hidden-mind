@@ -119,6 +119,14 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
   Episodes: 3–14 views each. Countries: US 13%, then PH, IN, CA, GB, AU, ID, MY. Subs per 1,000 views ≈ 1.4.
   Rules from this: model every Short on the "ok." Short (specific moment in second 1, ≤25 s, loop); add a share line
   ("send this to the friend who…"); post 2 Shorts/day ~12 h apart; Shorts first, episodes second.
+- 28 Nov 2026 ANALYTICS (12–25 Nov, channel/analytics/2026-11-28.json): 15 subs, ~15,000 views. Views FELL after 23 Nov:
+  the 4th–7th Shorts cut from ep03 got 707, 203, 198, 117, 320 views (vs 1,100–1,755 for the first three). Same story and
+  same footage again ("ok." text, Juno, phone) = viewer fatigue: "Your brain heard 'I hate you'" had 87% retention but only
+  203 views. Advice/abstract openers ("Try this…", "A text has no face", a card) retain 55–68%. A DIFFERENT episode's cut
+  the same day ("you too" waiter, 10:30 PM) got 1,354, so the slot time and 3/day are not the problem; repetition is.
+  Best ever: "Why 'ok.' with a period feels rude" 1,755 views, 94.9% avg viewed. RULES: max ~3 Shorts per episode story;
+  every Short needs a NEW specific moment in second 1; no advice-first openers; fresh standalone Short scripts beat re-cuts;
+  fewer fresh Shorts > more recycled ones.
 - The Analytics API (host youtubeanalytics.googleapis.com, scope yt-analytics.readonly) has its own quota: it worked on
   22 Nov while the Data API (www.googleapis.com) was 403 quotaExceeded. Save the same token for both hosts.
 - Long episodes get few views on a new channel; Shorts drive discovery. Check numbers with the Data API after 08:00 UTC

@@ -30,7 +30,7 @@ def section(name, fn):
 
 def channel():
     c = get(f"{DATA}/channels", {"part": "snippet,statistics,contentDetails", "mine": "true"})["items"][0]
-    return {"id": c["id"], "title": c["snippet"]["title"], **{k: int(v) for k, v in c["statistics"].items() if v.isdigit()}, "uploads": c["contentDetails"]["relatedPlaylists"]["uploads"]}
+    return {"id": c["id"], "title": c["snippet"]["title"], **{k: int(v) for k, v in c["statistics"].items() if str(v).isdigit()}, "uploads": c["contentDetails"]["relatedPlaylists"]["uploads"]}
 def videos():
     ids, tok = [], None
     while True:
