@@ -1,0 +1,45 @@
+SHORTS BATCH 01 — "cringe psychology" standalone Shorts (written as Shorts, 9:16, ~20–25 s each)
+Each: a specific awkward moment in the first second → one real, cautiously phrased psychology point → share line → a last
+line that loops back into the first. The narration text below is EXACTLY what is recorded (between the === lines).
+
+=== S01 THE WAVE ===
+Someone waves at you. You wave back. And then you realize… they were waving at the person behind you. Now you have to pretend you were fixing your hair. Here's the thing: psychologists call it the spotlight effect. We think everyone saw it. Most people barely noticed. Send this to the friend who waves back at everyone. And next time someone waves…
+
+=== S02 THE NAME ===
+"Hi, I'm Sarah." "Nice to meet you, I'm…" And her name is already gone. Two seconds. Gone. It's not that you don't care. Psychologists call it the next-in-line effect: while you wait for your turn to speak, your brain is busy planning what to say, so the words right before it barely get stored. Send this to the friend who calls everyone "buddy." Because next time someone says, "Hi, I'm…"
+
+=== S03 THE DOORWAY ===
+You walk into the kitchen. And you have no idea why you're there. Your brain didn't break. Researchers found that walking through a doorway can make people forget more than staying in the same room. A doorway works like an event boundary: your brain files the last scene away and starts a new one. Send this to the friend who stands in front of the open fridge. Now… why did you open this video?
+
+=== S04 YOUR VOICE ===
+You hear a recording of your own voice. And you think: that is not what I sound like. But it is. When you talk, you hear yourself through the air and through the bones of your own skull, which makes your voice sound deeper to you. A recording only catches the air. So the voice everyone knows… is the one you've never heard. Send this to the friend who hates voice notes. Now play it back…
+
+=== S05 "LOVE YOU, BYE" ===
+Your boss ends the call. And you say: "Okay, love you, bye." Silence. Psychologists call this an action slip. Some things you say so often that they run on autopilot, and when you're not paying attention, the autopilot grabs the wheel. It's not a secret feeling. It's a habit in the wrong place. Send this to the friend who said "you too" to a waiter. And at the end of your next call…
+
+=== S06 "WE NEED TO TALK" ===
+"Hey. We need to talk." No context. And your heart is already racing. Why does not knowing feel worse than bad news? In one study, people were more stressed when they couldn't predict a small electric shock than when they knew it was coming. Uncertainty itself is stressful. So your brain fills the gap with the worst version. Send this to the friend who texts "we need to talk." Then wait for the reply…
+
+=== S07 THE LAUGH ===
+Someone tells a story. Everyone laughs. You laugh too. And then you realize… it wasn't a joke. Here's why it happens: laughter is mostly social. One researcher found people were about thirty times more likely to laugh with others around than when they were alone. Your laugh isn't really about the joke. It's about the group. Send this to the friend who always laughs first. And the next time everyone laughs…
+
+=== S08 THE ORDER ===
+You're in line. You rehearse your order ten times. Then it's your turn, and you say: "Can I get a… uh… large… small… thing?" Psychologists call it choking under pressure. When you watch yourself too closely, something you normally do on autopilot can fall apart. Thinking about it too hard is what breaks it. Send this to the friend who practices their order. And the next time you're in line…
+
+=== S09 THE TYPO ===
+You read your message five times. It's perfect. You hit send. And there it is: a typo. Why do you only see it after sending? When you check your own words, your brain already knows what you meant, so it reads what it expects instead of what's actually there. Once it's sent, you read it like a stranger would. Send this to the friend who unsends everything. Now read your last text again…
+
+=== S10 "SEEN" ===
+"Seen." No reply. And now you can't think about anything else. Unfinished things tend to stick in the mind. Psychologists call it the Zeigarnik effect: an open loop keeps pulling your attention back until it's closed. A message with no reply is an open loop. That's why you keep checking. Send this to the friend who replies three days later. And check your phone…
+
+SOURCES (cautious phrasing used in the narration)
+- S01 Gilovich, Medvec & Savitsky (2000). The spotlight effect in social judgment. JPSP 78(2), 211–222.
+- S02 Brenner (1973). The next-in-line effect. Journal of Verbal Learning and Verbal Behavior 12(3), 320–323.
+- S03 Radvansky, Krawietz & Tamplin (2011). Walking through doorways causes forgetting. QJEP 64(8), 1632–1645.
+- S04 Bone conduction of one's own voice (basic hearing physiology); e.g. Holzman & Rousey (1966), JPSP 4(1), 79–86.
+- S05 Reason (1979). Actions not as planned: the price of automatization. (action slips / absent-minded errors)
+- S06 de Berker et al. (2016). Computations of uncertainty mediate acute stress responses in humans. Nature Communications 7, 10996.
+- S07 Provine (2000). Laughter: A Scientific Investigation (≈30× more laughter in social than solitary settings).
+- S08 Beilock & Carr (2001). On the fragility of skilled performance: what governs choking under pressure? JEP: General 130(4), 701–725.
+- S09 Common proofreading account (top-down reading: we see what we expect), e.g. Stafford (2014), Wired, "What's up with typos".
+- S10 Zeigarnik (1927); later replications are mixed, hence "tend to".
