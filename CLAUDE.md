@@ -81,7 +81,14 @@ Target audience: USA. US Eastern is UTC−5 until 8 Mar 2027 (then UTC−4: make
 | ep03 Short 7 Why a 2-letter text feels like a threat ⚠️ | sRzFe3NITfI | uploaded private + scheduled Thu 26 Nov 2026, 6:30 AM |
 | ep03 Short 8 She said "ok." Your brain heard "I hate you" 😬 | Y4HZn3IHPLs | uploaded private + scheduled Mon 23 Nov 2026, 2:30 PM |
 | ep02 Short 8 Said "you too" to the waiter? Try this tonight 🌙 | 5W7lxaOiDaw | uploaded private + scheduled Mon 23 Nov 2026, 10:30 PM |
-| next Shorts needed from | — | Fri 27 Nov 2026, 6:30 AM; from then 3 Shorts/day (6:30 AM, 2:30 PM, 10:30 PM) |
+| ep03 extra Short Plot twist: she thinks YOU'RE mad 😅 | Se5fvuRhOHg | uploaded private + scheduled Sat 28 Nov 2026, 6:30 AM |
+| ep03 extra Short Short reply? 3 reasons it's NOT about you 💬 | vd7o1LdiCq0 | uploaded private + scheduled Sat 28 Nov 2026, 2:30 PM |
+| ep02 extra Short Said "you too" to the waiter? Nobody noticed 🔦 | LTFN1TVZfyU | uploaded private + scheduled Sat 28 Nov 2026, 10:30 PM |
+| ep01 extra Short Can't stop overthinking? Try "worry time" 🕰️ | 0jmwjAwbiKU | uploaded private + scheduled Sun 29 Nov 2026, 6:30 AM |
+| ep01 extra Short Overthinking isn't you caring too much 🛡️ | MbzqJTDHlgk | uploaded private + scheduled Sun 29 Nov 2026, 2:30 PM |
+| ep01 extra Short Your mind wanders almost half the time 🧠 | qHFYnpohAfs | uploaded private + scheduled Sun 29 Nov 2026, 10:30 PM |
+| (gap) | — | Fri 27 Nov 2026: no Shorts went out (planned Tue–Thu extras missed their slots; rescheduled to Sat/Sun) |
+| next Shorts needed from | — | Mon 30 Nov 2026, 6:30 AM; 3 Shorts/day (6:30 AM, 2:30 PM, 10:30 PM) + ep04 still to be written/recorded |
 
 ### Performance lessons (update as data comes in)
 - 13 Nov 2026 (day 1–2): ep02 Short 1 "you too to a waiter" = 1,417 views / 32 likes in 18 h (best). ep01 Short = 585.
