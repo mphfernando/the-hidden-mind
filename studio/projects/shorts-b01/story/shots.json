@@ -1,0 +1,1797 @@
+{
+ "title": "Shorts batch 01",
+ "duration": 261.2,
+ "shots": [
+  {
+   "id": "w1",
+   "start": 0,
+   "line": "Someone waves at you. You wave back.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S01",
+    "title": [
+     "WAVED BACK AT",
+     "A STRANGER?"
+    ]
+   },
+   "end": 2.64
+  },
+  {
+   "id": "w2",
+   "start": 2.64,
+   "line": "And then you realize… they were waving at the person behind you.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "short": "S01",
+    "title": [
+     "WAVED BACK AT",
+     "A STRANGER?"
+    ]
+   },
+   "end": 6.73
+  },
+  {
+   "id": "w3",
+   "start": 6.73,
+   "line": "Now you have to pretend you were fixing your hair.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S01",
+    "title": [
+     "WAVED BACK AT",
+     "A STRANGER?"
+    ]
+   },
+   "end": 9.41
+  },
+  {
+   "id": "w4",
+   "start": 9.41,
+   "line": "Here's the thing: psychologists call it the spotlight effect.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S01",
+    "title": [
+     "WAVED BACK AT",
+     "A STRANGER?"
+    ]
+   },
+   "end": 13.4
+  },
+  {
+   "id": "w5",
+   "start": 13.4,
+   "line": "We think everyone saw it. Most people barely noticed.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S01",
+    "title": [
+     "WAVED BACK AT",
+     "A STRANGER?"
+    ]
+   },
+   "end": 17.17
+  },
+  {
+   "id": "w6",
+   "start": 17.17,
+   "line": "Send this to the friend who waves back at everyone.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S01",
+    "title": [
+     "WAVED BACK AT",
+     "A STRANGER?"
+    ]
+   },
+   "end": 20.11
+  },
+  {
+   "id": "w7",
+   "start": 20.11,
+   "line": "And next time someone waves…",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S01",
+    "title": [
+     "WAVED BACK AT",
+     "A STRANGER?"
+    ]
+   },
+   "end": 21.94
+  },
+  {
+   "id": "n1",
+   "start": 21.94,
+   "line": "\"Hi, I'm Sarah.\" \"Nice to meet you, I'm…\"",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S02",
+    "title": [
+     "FORGOT THEIR NAME",
+     "IN 2 SECONDS?"
+    ]
+   },
+   "end": 24.95
+  },
+  {
+   "id": "n2",
+   "start": 24.95,
+   "line": "And her name is already gone. Two seconds.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "short": "S02",
+    "title": [
+     "FORGOT THEIR NAME",
+     "IN 2 SECONDS?"
+    ]
+   },
+   "end": 27.93
+  },
+  {
+   "id": "n3",
+   "start": 27.93,
+   "line": "Gone. It's not that you don't care.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S02",
+    "title": [
+     "FORGOT THEIR NAME",
+     "IN 2 SECONDS?"
+    ]
+   },
+   "end": 30.5
+  },
+  {
+   "id": "n4",
+   "start": 30.5,
+   "line": "Psychologists call it the next-in-line effect:",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S02",
+    "title": [
+     "FORGOT THEIR NAME",
+     "IN 2 SECONDS?"
+    ]
+   },
+   "end": 33.61
+  },
+  {
+   "id": "n5",
+   "start": 33.61,
+   "line": "while you wait for your turn to speak, your brain is busy planning what to say,",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S02",
+    "title": [
+     "FORGOT THEIR NAME",
+     "IN 2 SECONDS?"
+    ]
+   },
+   "end": 37.96
+  },
+  {
+   "id": "n6",
+   "start": 37.96,
+   "line": "so the words right before it barely get stored.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S02",
+    "title": [
+     "FORGOT THEIR NAME",
+     "IN 2 SECONDS?"
+    ]
+   },
+   "end": 41.03
+  },
+  {
+   "id": "n7",
+   "start": 41.03,
+   "line": "Send this to the friend who calls everyone \"buddy.\"",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S02",
+    "title": [
+     "FORGOT THEIR NAME",
+     "IN 2 SECONDS?"
+    ]
+   },
+   "end": 44.06
+  },
+  {
+   "id": "n8",
+   "start": 44.06,
+   "line": "Because next time someone says, \"Hi, I'm…\"",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S02",
+    "title": [
+     "FORGOT THEIR NAME",
+     "IN 2 SECONDS?"
+    ]
+   },
+   "end": 47.2
+  },
+  {
+   "id": "d1",
+   "start": 47.2,
+   "line": "You walk into the kitchen. And you have no idea why you're there.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S03",
+    "title": [
+     "WHY DID I",
+     "COME IN HERE?"
+    ]
+   },
+   "end": 51.07
+  },
+  {
+   "id": "d2",
+   "start": 51.07,
+   "line": "Your brain didn't break. Researchers found that walking through a doorway can make people forget more than staying in the same room.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "short": "S03",
+    "title": [
+     "WHY DID I",
+     "COME IN HERE?"
+    ]
+   },
+   "end": 58.28
+  },
+  {
+   "id": "d3",
+   "start": 58.28,
+   "line": "A doorway works like an event boundary:",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S03",
+    "title": [
+     "WHY DID I",
+     "COME IN HERE?"
+    ]
+   },
+   "end": 60.66
+  },
+  {
+   "id": "d4",
+   "start": 60.66,
+   "line": "your brain files the last scene away and starts a new one.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S03",
+    "title": [
+     "WHY DID I",
+     "COME IN HERE?"
+    ]
+   },
+   "end": 64.44
+  },
+  {
+   "id": "d5",
+   "start": 64.44,
+   "line": "Send this to the friend who stands in front of the open fridge.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S03",
+    "title": [
+     "WHY DID I",
+     "COME IN HERE?"
+    ]
+   },
+   "end": 67.63
+  },
+  {
+   "id": "d6",
+   "start": 67.63,
+   "line": "Now… why did you open this video?",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S03",
+    "title": [
+     "WHY DID I",
+     "COME IN HERE?"
+    ]
+   },
+   "end": 70.31
+  },
+  {
+   "id": "v1",
+   "start": 70.31,
+   "line": "You hear a recording of your own voice.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S04",
+    "title": [
+     "WHY YOUR VOICE",
+     "SOUNDS WEIRD"
+    ]
+   },
+   "end": 72.31
+  },
+  {
+   "id": "v2",
+   "start": 72.31,
+   "line": "And you think: that is not what I sound like.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "short": "S04",
+    "title": [
+     "WHY YOUR VOICE",
+     "SOUNDS WEIRD"
+    ]
+   },
+   "end": 75.33
+  },
+  {
+   "id": "v3",
+   "start": 75.33,
+   "line": "But it is. When you talk, you hear yourself through the air and through the bones of your own skull,",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S04",
+    "title": [
+     "WHY YOUR VOICE",
+     "SOUNDS WEIRD"
+    ]
+   },
+   "end": 81.4
+  },
+  {
+   "id": "v4",
+   "start": 81.4,
+   "line": "which makes your voice sound deeper to you.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S04",
+    "title": [
+     "WHY YOUR VOICE",
+     "SOUNDS WEIRD"
+    ]
+   },
+   "end": 83.87
+  },
+  {
+   "id": "v5",
+   "start": 83.87,
+   "line": "A recording only catches the air.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S04",
+    "title": [
+     "WHY YOUR VOICE",
+     "SOUNDS WEIRD"
+    ]
+   },
+   "end": 86.23
+  },
+  {
+   "id": "v6",
+   "start": 86.23,
+   "line": "So the voice everyone knows… is the one you've never heard.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S04",
+    "title": [
+     "WHY YOUR VOICE",
+     "SOUNDS WEIRD"
+    ]
+   },
+   "end": 90.22
+  },
+  {
+   "id": "v7",
+   "start": 90.22,
+   "line": "Send this to the friend who hates voice notes.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S04",
+    "title": [
+     "WHY YOUR VOICE",
+     "SOUNDS WEIRD"
+    ]
+   },
+   "end": 93.05
+  },
+  {
+   "id": "v8",
+   "start": 93.05,
+   "line": "Now play it back…",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S04",
+    "title": [
+     "WHY YOUR VOICE",
+     "SOUNDS WEIRD"
+    ]
+   },
+   "end": 94.46
+  },
+  {
+   "id": "l1",
+   "start": 94.46,
+   "line": "Your boss ends the call.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S05",
+    "title": [
+     "\"LOVE YOU, BYE\"",
+     "TO YOUR BOSS"
+    ]
+   },
+   "end": 96.89
+  },
+  {
+   "id": "l2",
+   "start": 96.89,
+   "line": "And you say: \"Okay, love you, bye.\"",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "short": "S05",
+    "title": [
+     "\"LOVE YOU, BYE\"",
+     "TO YOUR BOSS"
+    ]
+   },
+   "end": 99.2
+  },
+  {
+   "id": "l3",
+   "start": 99.2,
+   "line": "Silence. Psychologists call this an action slip.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S05",
+    "title": [
+     "\"LOVE YOU, BYE\"",
+     "TO YOUR BOSS"
+    ]
+   },
+   "end": 103.0
+  },
+  {
+   "id": "l4",
+   "start": 103.0,
+   "line": "Some things you say so often that they run on autopilot,",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S05",
+    "title": [
+     "\"LOVE YOU, BYE\"",
+     "TO YOUR BOSS"
+    ]
+   },
+   "end": 106.52
+  },
+  {
+   "id": "l5",
+   "start": 106.52,
+   "line": "and when you're not paying attention, the autopilot grabs the wheel.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S05",
+    "title": [
+     "\"LOVE YOU, BYE\"",
+     "TO YOUR BOSS"
+    ]
+   },
+   "end": 110.44
+  },
+  {
+   "id": "l6",
+   "start": 110.44,
+   "line": "It's not a secret feeling. It's a habit in the wrong place.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S05",
+    "title": [
+     "\"LOVE YOU, BYE\"",
+     "TO YOUR BOSS"
+    ]
+   },
+   "end": 114.2
+  },
+  {
+   "id": "l7",
+   "start": 114.2,
+   "line": "Send this to the friend who said \"you too\" to a waiter.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S05",
+    "title": [
+     "\"LOVE YOU, BYE\"",
+     "TO YOUR BOSS"
+    ]
+   },
+   "end": 117.75
+  },
+  {
+   "id": "l8",
+   "start": 117.75,
+   "line": "And at the end of your next call…",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S05",
+    "title": [
+     "\"LOVE YOU, BYE\"",
+     "TO YOUR BOSS"
+    ]
+   },
+   "end": 119.64
+  },
+  {
+   "id": "t1",
+   "start": 119.64,
+   "line": "\"Hey. We need to talk.\" No context.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S06",
+    "title": [
+     "\"HEY. WE NEED",
+     "TO TALK.\""
+    ]
+   },
+   "end": 122.64
+  },
+  {
+   "id": "t2",
+   "start": 122.64,
+   "line": "And your heart is already racing.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "short": "S06",
+    "title": [
+     "\"HEY. WE NEED",
+     "TO TALK.\""
+    ]
+   },
+   "end": 124.82
+  },
+  {
+   "id": "t3",
+   "start": 124.82,
+   "line": "Why does not knowing feel worse than bad news?",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S06",
+    "title": [
+     "\"HEY. WE NEED",
+     "TO TALK.\""
+    ]
+   },
+   "end": 128.03
+  },
+  {
+   "id": "t4",
+   "start": 128.03,
+   "line": "In one study, people were more stressed when they couldn't predict a small electric shock than when they knew it was coming.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S06",
+    "title": [
+     "\"HEY. WE NEED",
+     "TO TALK.\""
+    ]
+   },
+   "end": 134.67
+  },
+  {
+   "id": "t5",
+   "start": 134.67,
+   "line": "Uncertainty itself is stressful.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S06",
+    "title": [
+     "\"HEY. WE NEED",
+     "TO TALK.\""
+    ]
+   },
+   "end": 137.04
+  },
+  {
+   "id": "t6",
+   "start": 137.04,
+   "line": "So your brain fills the gap with the worst version.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S06",
+    "title": [
+     "\"HEY. WE NEED",
+     "TO TALK.\""
+    ]
+   },
+   "end": 140.26
+  },
+  {
+   "id": "t7",
+   "start": 140.26,
+   "line": "Send this to the friend who texts \"we need to talk.\"",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S06",
+    "title": [
+     "\"HEY. WE NEED",
+     "TO TALK.\""
+    ]
+   },
+   "end": 143.46
+  },
+  {
+   "id": "t8",
+   "start": 143.46,
+   "line": "Then wait for the reply…",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S06",
+    "title": [
+     "\"HEY. WE NEED",
+     "TO TALK.\""
+    ]
+   },
+   "end": 145.19
+  },
+  {
+   "id": "g1",
+   "start": 145.19,
+   "line": "Someone tells a story. Everyone laughs.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S07",
+    "title": [
+     "LAUGHED AT",
+     "THE WRONG THING?"
+    ]
+   },
+   "end": 147.81
+  },
+  {
+   "id": "g2",
+   "start": 147.81,
+   "line": "You laugh too. And then you realize…",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "short": "S07",
+    "title": [
+     "LAUGHED AT",
+     "THE WRONG THING?"
+    ]
+   },
+   "end": 150.7
+  },
+  {
+   "id": "g3",
+   "start": 150.7,
+   "line": "it wasn't a joke. Here's why it happens:",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S07",
+    "title": [
+     "LAUGHED AT",
+     "THE WRONG THING?"
+    ]
+   },
+   "end": 153.7
+  },
+  {
+   "id": "g4",
+   "start": 153.7,
+   "line": "laughter is mostly social. One researcher found people were about thirty times more likely to laugh with others around than when they were alone.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S07",
+    "title": [
+     "LAUGHED AT",
+     "THE WRONG THING?"
+    ]
+   },
+   "end": 162.72
+  },
+  {
+   "id": "g5",
+   "start": 162.72,
+   "line": "Your laugh isn't really about the joke.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S07",
+    "title": [
+     "LAUGHED AT",
+     "THE WRONG THING?"
+    ]
+   },
+   "end": 164.92
+  },
+  {
+   "id": "g6",
+   "start": 164.92,
+   "line": "It's about the group.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S07",
+    "title": [
+     "LAUGHED AT",
+     "THE WRONG THING?"
+    ]
+   },
+   "end": 166.42
+  },
+  {
+   "id": "g7",
+   "start": 166.42,
+   "line": "Send this to the friend who always laughs first.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S07",
+    "title": [
+     "LAUGHED AT",
+     "THE WRONG THING?"
+    ]
+   },
+   "end": 169.51
+  },
+  {
+   "id": "g8",
+   "start": 169.51,
+   "line": "And the next time everyone laughs…",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S07",
+    "title": [
+     "LAUGHED AT",
+     "THE WRONG THING?"
+    ]
+   },
+   "end": 171.77
+  },
+  {
+   "id": "o1",
+   "start": 171.77,
+   "line": "You're in line. You rehearse your order ten times.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S08",
+    "title": [
+     "PRACTICED YOUR",
+     "ORDER 10 TIMES?"
+    ]
+   },
+   "end": 175.22
+  },
+  {
+   "id": "o2",
+   "start": 175.22,
+   "line": "Then it's your turn, and you say: \"Can I",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "short": "S08",
+    "title": [
+     "PRACTICED YOUR",
+     "ORDER 10 TIMES?"
+    ]
+   },
+   "end": 179.36
+  },
+  {
+   "id": "o3",
+   "start": 179.36,
+   "line": "get a… uh… large… small…",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S08",
+    "title": [
+     "PRACTICED YOUR",
+     "ORDER 10 TIMES?"
+    ]
+   },
+   "end": 181.59
+  },
+  {
+   "id": "o4",
+   "start": 181.59,
+   "line": "thing?\" Psychologists call it choking under pressure.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S08",
+    "title": [
+     "PRACTICED YOUR",
+     "ORDER 10 TIMES?"
+    ]
+   },
+   "end": 185.48
+  },
+  {
+   "id": "o5",
+   "start": 185.48,
+   "line": "When you watch yourself too closely, something you normally do on autopilot can fall apart.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S08",
+    "title": [
+     "PRACTICED YOUR",
+     "ORDER 10 TIMES?"
+    ]
+   },
+   "end": 190.89
+  },
+  {
+   "id": "o6",
+   "start": 190.89,
+   "line": "Thinking about it too hard is what breaks it.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S08",
+    "title": [
+     "PRACTICED YOUR",
+     "ORDER 10 TIMES?"
+    ]
+   },
+   "end": 193.65
+  },
+  {
+   "id": "o7",
+   "start": 193.65,
+   "line": "Send this to the friend who practices their order.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S08",
+    "title": [
+     "PRACTICED YOUR",
+     "ORDER 10 TIMES?"
+    ]
+   },
+   "end": 196.46
+  },
+  {
+   "id": "o8",
+   "start": 196.46,
+   "line": "And the next time you're in line…",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S08",
+    "title": [
+     "PRACTICED YOUR",
+     "ORDER 10 TIMES?"
+    ]
+   },
+   "end": 198.47
+  },
+  {
+   "id": "y1",
+   "start": 198.47,
+   "line": "You read your message five times.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S09",
+    "title": [
+     "WHY YOU SEE TYPOS",
+     "AFTER SENDING"
+    ]
+   },
+   "end": 200.6
+  },
+  {
+   "id": "y2",
+   "start": 200.6,
+   "line": "It's perfect. You hit send.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "short": "S09",
+    "title": [
+     "WHY YOU SEE TYPOS",
+     "AFTER SENDING"
+    ]
+   },
+   "end": 202.82
+  },
+  {
+   "id": "y3",
+   "start": 202.82,
+   "line": "And there it is: a typo.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S09",
+    "title": [
+     "WHY YOU SEE TYPOS",
+     "AFTER SENDING"
+    ]
+   },
+   "end": 205.27
+  },
+  {
+   "id": "y4",
+   "start": 205.27,
+   "line": "Why do you only see it after sending?",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S09",
+    "title": [
+     "WHY YOU SEE TYPOS",
+     "AFTER SENDING"
+    ]
+   },
+   "end": 209.31
+  },
+  {
+   "id": "y5",
+   "start": 209.31,
+   "line": "When you check your own words,",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S09",
+    "title": [
+     "WHY YOU SEE TYPOS",
+     "AFTER SENDING"
+    ]
+   },
+   "end": 211.75
+  },
+  {
+   "id": "y6",
+   "start": 211.75,
+   "line": "your brain already knows what you meant,",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S09",
+    "title": [
+     "WHY YOU SEE TYPOS",
+     "AFTER SENDING"
+    ]
+   },
+   "end": 215.53
+  },
+  {
+   "id": "y7",
+   "start": 215.53,
+   "line": "so it reads what it expects instead of what's actually there.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S09",
+    "title": [
+     "WHY YOU SEE TYPOS",
+     "AFTER SENDING"
+    ]
+   },
+   "end": 220.53
+  },
+  {
+   "id": "y8",
+   "start": 220.53,
+   "line": "Once it's sent, you read it like a stranger would.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S09",
+    "title": [
+     "WHY YOU SEE TYPOS",
+     "AFTER SENDING"
+    ]
+   },
+   "end": 225.36
+  },
+  {
+   "id": "y9",
+   "start": 225.36,
+   "line": "Send this to the friend who unsends everything.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S09",
+    "title": [
+     "WHY YOU SEE TYPOS",
+     "AFTER SENDING"
+    ]
+   },
+   "end": 229.24
+  },
+  {
+   "id": "y10",
+   "start": 229.24,
+   "line": "Now read your last text again…",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S09",
+    "title": [
+     "WHY YOU SEE TYPOS",
+     "AFTER SENDING"
+    ]
+   },
+   "end": 230.81
+  },
+  {
+   "id": "s1",
+   "start": 230.81,
+   "line": "\"Seen.\" No reply. And now you can't think about anything else.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.25
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S10",
+    "title": [
+     "\"SEEN\"",
+     "NO REPLY"
+    ]
+   },
+   "end": 234.81
+  },
+  {
+   "id": "s2",
+   "start": 234.81,
+   "line": "Unfinished things tend to stick in the mind.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "params": {
+    "short": "S10",
+    "title": [
+     "\"SEEN\"",
+     "NO REPLY"
+    ]
+   },
+   "end": 238.79
+  },
+  {
+   "id": "s3",
+   "start": 238.79,
+   "line": "Psychologists call it the Zeigarnik effect:",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S10",
+    "title": [
+     "\"SEEN\"",
+     "NO REPLY"
+    ]
+   },
+   "end": 241.64
+  },
+  {
+   "id": "s4",
+   "start": 241.64,
+   "line": "an open loop keeps pulling your attention back until it's closed.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S10",
+    "title": [
+     "\"SEEN\"",
+     "NO REPLY"
+    ]
+   },
+   "end": 247.7
+  },
+  {
+   "id": "s5",
+   "start": 247.7,
+   "line": "A message with no reply is an open loop.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S10",
+    "title": [
+     "\"SEEN\"",
+     "NO REPLY"
+    ]
+   },
+   "end": 252.45
+  },
+  {
+   "id": "s6",
+   "start": 252.45,
+   "line": "That's why you keep checking.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S10",
+    "title": [
+     "\"SEEN\"",
+     "NO REPLY"
+    ]
+   },
+   "end": 255.1
+  },
+  {
+   "id": "s7",
+   "start": 255.1,
+   "line": "Send this to the friend who replies three days later.",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S10",
+    "title": [
+     "\"SEEN\"",
+     "NO REPLY"
+    ]
+   },
+   "end": 258.8
+  },
+  {
+   "id": "s8",
+   "start": 258.8,
+   "line": "And check your phone…",
+   "scene": "",
+   "set": "v",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "params": {
+    "short": "S10",
+    "title": [
+     "\"SEEN\"",
+     "NO REPLY"
+    ]
+   },
+   "end": 261.2
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 21.94,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 21.94,
+   "end": 47.2,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 47.2,
+   "end": 70.31,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 70.31,
+   "end": 94.46,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 94.46,
+   "end": 119.64,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 119.64,
+   "end": 145.19,
+   "mood": "dark",
+   "intensity": 0.4
+  },
+  {
+   "start": 145.19,
+   "end": 171.77,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 171.77,
+   "end": 198.47,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 198.47,
+   "end": 230.81,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 230.81,
+   "end": 261.2,
+   "mood": "dark",
+   "intensity": 0.4
+  }
+ ]
+}
