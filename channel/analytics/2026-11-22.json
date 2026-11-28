@@ -1,0 +1,358 @@
+{
+ "start": "2026-11-10",
+ "end": "2026-11-22",
+ "errors": {
+  "channel": "HTTP 403: The request cannot be completed because you have exceeded your <a href=\"/youtube/data/getting-started#quota\">quota</a>."
+ },
+ "by_video": [
+  {
+   "video": "unze8yiX1uU",
+   "views": 1450,
+   "estimatedMinutesWatched": 392,
+   "averageViewDuration": 25,
+   "averageViewPercentage": 69.3,
+   "subscribersGained": 0,
+   "subscribersLost": 0,
+   "likes": 33,
+   "shares": 0,
+   "comments": 0
+  },
+  {
+   "video": "3RyCOFgfty8",
+   "views": 1297,
+   "estimatedMinutesWatched": 282,
+   "averageViewDuration": 25,
+   "averageViewPercentage": 87.6,
+   "subscribersGained": 3,
+   "subscribersLost": 0,
+   "likes": 22,
+   "shares": 0,
+   "comments": 0
+  },
+  {
+   "video": "mXcAfMOrTeQ",
+   "views": 1246,
+   "estimatedMinutesWatched": 126,
+   "averageViewDuration": 9,
+   "averageViewPercentage": 41.29,
+   "subscribersGained": 1,
+   "subscribersLost": 0,
+   "likes": 15,
+   "shares": 0,
+   "comments": 0
+  },
+  {
+   "video": "c-Ae7PGNXmE",
+   "views": 1216,
+   "estimatedMinutesWatched": 179,
+   "averageViewDuration": 15,
+   "averageViewPercentage": 48.71,
+   "subscribersGained": 1,
+   "subscribersLost": 0,
+   "likes": 17,
+   "shares": 2,
+   "comments": 1
+  },
+  {
+   "video": "_1hVJ1mmYlY",
+   "views": 1155,
+   "estimatedMinutesWatched": 136,
+   "averageViewDuration": 14,
+   "averageViewPercentage": 68.41,
+   "subscribersGained": 1,
+   "subscribersLost": 0,
+   "likes": 15,
+   "shares": 0,
+   "comments": 0
+  },
+  {
+   "video": "WtietaE1DD4",
+   "views": 1028,
+   "estimatedMinutesWatched": 197,
+   "averageViewDuration": 22,
+   "averageViewPercentage": 58.29,
+   "subscribersGained": 0,
+   "subscribersLost": 0,
+   "likes": 19,
+   "shares": 0,
+   "comments": 0
+  },
+  {
+   "video": "CmJgWzDrGxo",
+   "views": 988,
+   "estimatedMinutesWatched": 263,
+   "averageViewDuration": 25,
+   "averageViewPercentage": 43.16,
+   "subscribersGained": 3,
+   "subscribersLost": 0,
+   "likes": 11,
+   "shares": 2,
+   "comments": 1
+  },
+  {
+   "video": "IKzRkeshi0I",
+   "views": 435,
+   "estimatedMinutesWatched": 42,
+   "averageViewDuration": 14,
+   "averageViewPercentage": 64.25,
+   "subscribersGained": 1,
+   "subscribersLost": 0,
+   "likes": 7,
+   "shares": 0,
+   "comments": 0
+  },
+  {
+   "video": "vX0lh9xvc84",
+   "views": 160,
+   "estimatedMinutesWatched": 13,
+   "averageViewDuration": 15,
+   "averageViewPercentage": 67.47,
+   "subscribersGained": 0,
+   "subscribersLost": 0,
+   "likes": 2,
+   "shares": 0,
+   "comments": 0
+  },
+  {
+   "video": "ez-lXPY79pU",
+   "views": 14,
+   "estimatedMinutesWatched": 24,
+   "averageViewDuration": 123,
+   "averageViewPercentage": 56.31,
+   "subscribersGained": 1,
+   "subscribersLost": 0,
+   "likes": 0,
+   "shares": 0,
+   "comments": 0
+  },
+  {
+   "video": "ZiM_ea1T5xg",
+   "views": 9,
+   "estimatedMinutesWatched": 0,
+   "averageViewDuration": 15,
+   "averageViewPercentage": 50.970000000000006,
+   "subscribersGained": 0,
+   "subscribersLost": 0,
+   "likes": 0,
+   "shares": 0,
+   "comments": 0
+  },
+  {
+   "video": "fN20EY-EMLk",
+   "views": 8,
+   "estimatedMinutesWatched": 13,
+   "averageViewDuration": 100,
+   "averageViewPercentage": 52.96999999999999,
+   "subscribersGained": 0,
+   "subscribersLost": 0,
+   "likes": 1,
+   "shares": 0,
+   "comments": 0
+  },
+  {
+   "video": "wwhTZaRkRz8",
+   "views": 6,
+   "estimatedMinutesWatched": 0,
+   "averageViewDuration": 9,
+   "averageViewPercentage": 26.58,
+   "subscribersGained": 0,
+   "subscribersLost": 0,
+   "likes": 0,
+   "shares": 0,
+   "comments": 0
+  },
+  {
+   "video": "1nVuUlwU6Vk",
+   "views": 3,
+   "estimatedMinutesWatched": 5,
+   "averageViewDuration": 158,
+   "averageViewPercentage": 88.73,
+   "subscribersGained": 0,
+   "subscribersLost": 0,
+   "likes": 0,
+   "shares": 0,
+   "comments": 0
+  }
+ ],
+ "by_day": [
+  {
+   "day": "2026-11-10",
+   "views": 0,
+   "estimatedMinutesWatched": 0,
+   "subscribersGained": 0,
+   "subscribersLost": 0
+  },
+  {
+   "day": "2026-11-11",
+   "views": 0,
+   "estimatedMinutesWatched": 0,
+   "subscribersGained": 0,
+   "subscribersLost": 0
+  },
+  {
+   "day": "2026-11-12",
+   "views": 2038,
+   "estimatedMinutesWatched": 568,
+   "subscribersGained": 3,
+   "subscribersLost": 0
+  },
+  {
+   "day": "2026-11-13",
+   "views": 2022,
+   "estimatedMinutesWatched": 347,
+   "subscribersGained": 3,
+   "subscribersLost": 0
+  },
+  {
+   "day": "2026-11-14",
+   "views": 1068,
+   "estimatedMinutesWatched": 151,
+   "subscribersGained": 1,
+   "subscribersLost": 0
+  },
+  {
+   "day": "2026-11-15",
+   "views": 873,
+   "estimatedMinutesWatched": 130,
+   "subscribersGained": 0,
+   "subscribersLost": 0
+  },
+  {
+   "day": "2026-11-16",
+   "views": 700,
+   "estimatedMinutesWatched": 75,
+   "subscribersGained": 1,
+   "subscribersLost": 0
+  },
+  {
+   "day": "2026-11-17",
+   "views": 947,
+   "estimatedMinutesWatched": 111,
+   "subscribersGained": 1,
+   "subscribersLost": 0
+  },
+  {
+   "day": "2026-11-18",
+   "views": 9,
+   "estimatedMinutesWatched": 1,
+   "subscribersGained": 0,
+   "subscribersLost": 0
+  },
+  {
+   "day": "2026-11-19",
+   "views": 1358,
+   "estimatedMinutesWatched": 292,
+   "subscribersGained": 3,
+   "subscribersLost": 0
+  }
+ ],
+ "traffic": [
+  {
+   "insightTrafficSourceType": "SHORTS",
+   "views": 8635,
+   "estimatedMinutesWatched": 1566
+  },
+  {
+   "insightTrafficSourceType": "YT_SEARCH",
+   "views": 154,
+   "estimatedMinutesWatched": 37
+  },
+  {
+   "insightTrafficSourceType": "YT_OTHER_PAGE",
+   "views": 132,
+   "estimatedMinutesWatched": 23
+  },
+  {
+   "insightTrafficSourceType": "YT_CHANNEL",
+   "views": 66,
+   "estimatedMinutesWatched": 22
+  },
+  {
+   "insightTrafficSourceType": "SUBSCRIBER",
+   "views": 14,
+   "estimatedMinutesWatched": 6
+  },
+  {
+   "insightTrafficSourceType": "RELATED_VIDEO",
+   "views": 10,
+   "estimatedMinutesWatched": 14
+  },
+  {
+   "insightTrafficSourceType": "END_SCREEN",
+   "views": 2,
+   "estimatedMinutesWatched": 7
+  },
+  {
+   "insightTrafficSourceType": "NO_LINK_OTHER",
+   "views": 1,
+   "estimatedMinutesWatched": 0
+  },
+  {
+   "insightTrafficSourceType": "EXT_URL",
+   "views": 1,
+   "estimatedMinutesWatched": 0
+  }
+ ],
+ "countries": [
+  {
+   "country": "US",
+   "views": 1133,
+   "subscribersGained": 0
+  },
+  {
+   "country": "PH",
+   "views": 789,
+   "subscribersGained": 0
+  },
+  {
+   "country": "IN",
+   "views": 676,
+   "subscribersGained": 0
+  },
+  {
+   "country": "CA",
+   "views": 662,
+   "subscribersGained": 0
+  },
+  {
+   "country": "GB",
+   "views": 406,
+   "subscribersGained": 0
+  },
+  {
+   "country": "AU",
+   "views": 397,
+   "subscribersGained": 0
+  },
+  {
+   "country": "ID",
+   "views": 394,
+   "subscribersGained": 0
+  },
+  {
+   "country": "MY",
+   "views": 295,
+   "subscribersGained": 0
+  },
+  {
+   "country": "DE",
+   "views": 171,
+   "subscribersGained": 0
+  },
+  {
+   "country": "IT",
+   "views": 159,
+   "subscribersGained": 0
+  }
+ ],
+ "subscribed_status": [
+  {
+   "subscribedStatus": "UNSUBSCRIBED",
+   "views": 8980
+  },
+  {
+   "subscribedStatus": "SUBSCRIBED",
+   "views": 35
+  }
+ ]
+}

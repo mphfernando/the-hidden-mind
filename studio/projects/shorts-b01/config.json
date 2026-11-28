@@ -1,0 +1,27 @@
+{
+ "title": "Shorts batch 01",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "arctic",
+ "voiceover": "input/voiceover.mp3",
+ "script": null,
+ "duration": 261.2,
+ "captions": true,
+ "bars": null,
+ "fadeIn": 0.5,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": true,
+  "gainDb": -17
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14,
+ "captionStyle": {
+  "max": 2,
+  "size": 86
+ }
+}

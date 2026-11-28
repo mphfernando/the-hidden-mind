@@ -1,0 +1,82 @@
+[
+ {
+  "id": "S01",
+  "name": "THE WAVE",
+  "start": 0.0,
+  "end": 21.687,
+  "first": "Someone",
+  "last": "waves\u2026"
+ },
+ {
+  "id": "S02",
+  "name": "THE NAME",
+  "start": 22.036,
+  "end": 46.854,
+  "first": "\"Hi,",
+  "last": "I'm\u2026\""
+ },
+ {
+  "id": "S03",
+  "name": "THE DOORWAY",
+  "start": 47.303,
+  "end": 69.828,
+  "first": "You",
+  "last": "video?"
+ },
+ {
+  "id": "S04",
+  "name": "YOUR VOICE",
+  "start": 70.407,
+  "end": 94.07,
+  "first": "You",
+  "last": "back\u2026"
+ },
+ {
+  "id": "S05",
+  "name": "\"LOVE YOU, BYE\"",
+  "start": 94.56,
+  "end": 119.319,
+  "first": "Your",
+  "last": "call\u2026"
+ },
+ {
+  "id": "S06",
+  "name": "\"WE NEED TO TALK\"",
+  "start": 119.736,
+  "end": 144.777,
+  "first": "\"Hey.",
+  "last": "reply\u2026"
+ },
+ {
+  "id": "S07",
+  "name": "THE LAUGH",
+  "start": 145.285,
+  "end": 171.231,
+  "first": "Someone",
+  "last": "laughs\u2026"
+ },
+ {
+  "id": "S08",
+  "name": "THE ORDER",
+  "start": 171.866,
+  "end": 197.966,
+  "first": "You're",
+  "last": "line\u2026"
+ },
+ {
+  "id": "S09",
+  "name": "THE TYPO",
+  "start": 198.571,
+  "end": 230.877,
+  "first": "You",
+  "last": "again\u2026"
+ },
+ {
+  "id": "S10",
+  "name": "\"SEEN\"",
+  "start": 230.907,
+  "end": 260.8,
+  "first": "\"Seen.\"",
+  "last": "phone\u2026"
+ }
+]
